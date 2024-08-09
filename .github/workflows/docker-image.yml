@@ -13,8 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-    - name: Build the Docker image
-      shell:
-        command: |
-          docker login --username=15682816850 registry.cn-hangzhou.aliyuncs.com --password=${{ secrets.PASSWORD }}
-          bash sync.sh
+    - name: run bash script
+      run: |
+        docker login --username=15682816850 registry.cn-hangzhou.aliyuncs.com --password=${{ secrets.PASSWORD }}
+        bash sync.sh
