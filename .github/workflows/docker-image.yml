@@ -14,4 +14,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: bash sync.sh
+      shell:
+        command: |
+          docker login --username=15682816850 registry.cn-hangzhou.aliyuncs.com --password=${{ secrets.PASSWORD }}
+          bash sync.sh
