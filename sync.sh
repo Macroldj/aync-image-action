@@ -7,4 +7,6 @@ done
 
 
 # 特殊的有很多层级的镜像，需要逐层推送，可以使用以下脚本：
-docker pull
+docker pull seafileltd/seafile-mc:11.0-latest
+docker tag seafileltd/seafile-mc:11.0-latest registry.cn-hangzhou.aliyuncs.com/macroldj/seafile-mc:11.0-latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/seafile-mc:11.0-latest
