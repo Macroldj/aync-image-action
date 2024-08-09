@@ -4,3 +4,7 @@ for image in $(cat image_list.sh); do
   docker tag $image registry.cn-hangzhou.aliyuncs.com/macroldj/$image
   docker push registry.cn-hangzhou.aliyuncs.com/macroldj/$image
 done
+
+
+# 特殊的有很多层级的镜像，需要逐层推送，可以使用以下脚本：
+docker pull
