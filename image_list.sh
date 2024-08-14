@@ -1,2 +1,2 @@
-redis:6.2.4
-redis:6.2.5
+mysql:5.7.16
+redis:5.0.4
