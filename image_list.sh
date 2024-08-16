@@ -1,1 +1,2 @@
-mariadb:11.5.2
+elasticsearch:7.17.23
+elasticsearch:8.14.3
