@@ -10,3 +10,7 @@ done
 #docker pull seafileltd/seafile-mc:11.0-latest
 #docker tag seafileltd/seafile-mc:11.0-latest registry.cn-hangzhou.aliyuncs.com/macroldj/seafile-mc:11.0-latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/seafile-mc:11.0-latest
+
+docker pull docker.elastic.co/elasticsearch/elasticsearch:8.15.0
+docker tag docker.elastic.co/elasticsearch/elasticsearch:8.15.0 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.15.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.15.0
