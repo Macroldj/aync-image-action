@@ -18,3 +18,7 @@ done
 #docker pull docker.elastic.co/kibana/kibana:8.15.0
 #docker tag docker.elastic.co/kibana/kibana:8.15.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.15.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.15.0
+
+docker pull docker.elastic.co/logstash/logstash:8.15.0
+docker tag docker.elastic.co/logstash/logstash:8.15.0 registry.cn-hangzhou.aliyuncs.com/macroldj/logstash:8.15.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/logstash:8.15.0
