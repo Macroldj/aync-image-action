@@ -31,10 +31,10 @@ done
 #docker tag mongodb/mongodb-community-server:latest registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:latest
 
-docker pull mongodb/mongodb-community-server:6.0.7-ubuntu2204
-docker tag mongodb/mongodb-community-server:6.0.7-ubuntu2204 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:6.0.7-ubuntu2204
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:6.0.7-ubuntu2204
+#docker pull mongodb/mongodb-community-server:6.0.7-ubuntu2204
+#docker tag mongodb/mongodb-community-server:6.0.7-ubuntu2204 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:6.0.7-ubuntu2204
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:6.0.7-ubuntu2204
 
-docker pull apacherocketmq/rocketmq:4.5.0
-docker tag apacherocketmq/rocketmq:4.5.0 registry.cn-hangzhou.aliyuncs.com/macroldj/rocketmq:4.5.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rocketmq:4.5.0
+#docker pull apacherocketmq/rocketmq:4.5.0
+#docker tag apacherocketmq/rocketmq:4.5.0 registry.cn-hangzhou.aliyuncs.com/macroldj/rocketmq:4.5.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rocketmq:4.5.0
