@@ -26,3 +26,7 @@ done
 docker pull docker.elastic.co/beats/filebeat:8.15.0
 docker tag docker.elastic.co/beats/filebeat:8.15.0 registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:8.15.0
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:8.15.0
+
+docker pull mongodb/mongodb-community-server:latest
+docker tag mongodb/mongodb-community-server:latest registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:latest
