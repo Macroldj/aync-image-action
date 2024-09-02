@@ -38,3 +38,7 @@ done
 #docker pull apacherocketmq/rocketmq:4.5.0
 #docker tag apacherocketmq/rocketmq:4.5.0 registry.cn-hangzhou.aliyuncs.com/macroldj/rocketmq:4.5.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rocketmq:4.5.0
+
+docker pull mongodb/mongodb-community-server:5.0-ubuntu2004
+docker tag mongodb/mongodb-community-server:5.0-ubuntu2004 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:5.0-ubuntu2004
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:5.0-ubuntu2004
