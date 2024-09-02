@@ -1,1 +1,1 @@
-maven:3.9.9-amazoncorretto-21
+node:18.16.1
