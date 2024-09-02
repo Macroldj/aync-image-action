@@ -1,1 +1,1 @@
-node:18.16.1
+node:18.16-bullseye-slim
