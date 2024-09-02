@@ -1,1 +1,1 @@
-maven:3.6.3-openjdk-21
+maven:3.9.9-amazoncorretto-21
