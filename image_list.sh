@@ -1,1 +1,1 @@
-nginx:1.21.1
+maven:3.6.3-openjdk-21
