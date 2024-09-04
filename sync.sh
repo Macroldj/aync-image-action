@@ -43,6 +43,6 @@ done
 #docker tag mongodb/mongodb-community-server:5.0-ubuntu2004 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:5.0-ubuntu2004
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:5.0-ubuntu2004
 
-docker pull gcr.io/etcd-development/etcd:v3.5.5
-docker tag gcr.io/etcd-development/etcd:v3.5.5 registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:v3.5.5
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:v3.5.5
+docker pull portainer/portainer:latest
+docker tag portainer/portainer:latest registry.cn-hangzhou.aliyuncs.com/macroldj/portainer:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/portainer:latest
