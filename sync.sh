@@ -43,6 +43,10 @@ done
 #docker tag mongodb/mongodb-community-server:5.0-ubuntu2004 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:5.0-ubuntu2004
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:5.0-ubuntu2004
 
-docker pull portainer/portainer:latest
-docker tag portainer/portainer:latest registry.cn-hangzhou.aliyuncs.com/macroldj/portainer:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/portainer:latest
+#docker pull portainer/portainer:latest
+#docker tag portainer/portainer:latest registry.cn-hangzhou.aliyuncs.com/macroldj/portainer:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/portainer:latest
+
+docker pull python:3.11.4-slim-buster
+docker tag python:3.11.4-slim-buster registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.11.4-slim-buster
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.11.4-slim-buster
