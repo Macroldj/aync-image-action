@@ -17,3 +17,5 @@ jobs:
       run: |
         docker login --username=15682816850 registry.cn-hangzhou.aliyuncs.com --password=${{ secrets.PASSWORD }}
         bash sync.sh
+        docker build . -t registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:v1
+        docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:v1
