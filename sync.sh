@@ -47,6 +47,14 @@ done
 #docker tag portainer/portainer:latest registry.cn-hangzhou.aliyuncs.com/macroldj/portainer:latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/portainer:latest
 
-docker pull kalilinux/kali-rolling:latest
-docker tag kalilinux/kali-rolling:latest registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:latest
+#docker pull kalilinux/kali-rolling:latest
+#docker tag kalilinux/kali-rolling:latest registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:latest
+
+docker pull docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel2
+docker tag docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel2 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel-cni-plugin:v1.5.1-flannel2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel-cni-plugin:v1.5.1-flannel2
+
+docker pull docker.io/flannel/flannel:v0.25.6
+docker tag docker.io/flannel/flannel:v0.25.6 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.6
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.6
