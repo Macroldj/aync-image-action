@@ -47,6 +47,6 @@ done
 #docker tag portainer/portainer:latest registry.cn-hangzhou.aliyuncs.com/macroldj/portainer:latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/portainer:latest
 
-docker pull kasmweb/kali-rolling-desktop:1.14.0
-docker tag kasmweb/kali-rolling-desktop:1.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling-desktop:1.14.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling-desktop:1.14.0
+docker pull kalilinux/kali-rolling:latest
+docker tag kalilinux/kali-rolling:latest registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:latest
