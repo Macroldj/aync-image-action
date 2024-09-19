@@ -59,38 +59,6 @@ done
 #docker tag docker.io/flannel/flannel:v0.25.6 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.6
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ubuntu:20.04
 
-docker pull juicedata/csi-dashboard:v0.24.5
-docker tag juicedata/csi-dashboard:v0.24.5 registry.cn-hangzhou.aliyuncs.com/macroldj/csi-dashboard:v0.24.5
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/csi-dashboard:v0.24.5
-
-docker pull juicedata/juicefs-csi-driver:v0.24.5
-docker tag juicedata/juicefs-csi-driver:v0.24.5 registry.cn-hangzhou.aliyuncs.com/macroldj/juicefs-csi-driver:v0.24.5
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/juicefs-csi-driver:v0.24.5
-
-docker pull registry.k8s.io/sig-storage/csi-provisioner:v2.2.2
-docker tag registry.k8s.io/sig-storage/csi-provisioner:v2.2.2 registry.cn-hangzhou.aliyuncs.com/macroldj/csi-provisioner:v2.2.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/csi-provisioner:v2.2.2
-
-docker pull registry.k8s.io/sig-storage/csi-resizer:v1.9.0
-docker tag registry.k8s.io/sig-storage/csi-resizer:v1.9.0 registry.cn-hangzhou.aliyuncs.com/macroldj/csi-resizer:v1.9.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/csi-resizer:v1.9.0
-
-docker pull registry.k8s.io/sig-storage/livenessprobe:v2.11.0
-docker tag registry.k8s.io/sig-storage/livenessprobe:v2.11.0 registry.cn-hangzhou.aliyuncs.com/macroldj/livenessprobe:v2.11.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/livenessprobe:v2.11.0
-
-docker pull registry.k8s.io/sig-storage/livenessprobe:v2.11.0
-docker tag registry.k8s.io/sig-storage/livenessprobe:v2.11.0 registry.cn-hangzhou.aliyuncs.com/macroldj/livenessprobe:v2.11.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/livenessprobe:v2.11.0
-
-docker pull juicedata/juicefs-csi-driver:v0.24.5
-docker tag juicedata/juicefs-csi-driver:v0.24.5 registry.cn-hangzhou.aliyuncs.com/macroldj/juicefs-csi-driver:v0.24.5
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/juicefs-csi-driver:v0.24.5
-
-docker pull registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.0
-docker tag registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.9.0 registry.cn-hangzhou.aliyuncs.com/macroldj/csi-node-driver-registrar:v2.9.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/csi-node-driver-registrar:v2.9.0
-
-docker pull registry.k8s.io/sig-storage/livenessprobe:v2.11.0
-docker tag registry.k8s.io/sig-storage/livenessprobe:v2.11.0 registry.cn-hangzhou.aliyuncs.com/macroldj/livenessprobe:v2.11.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/livenessprobe:v2.11.0
+docker pull minio/minio:latest
+docker tag minio/minio:latest registry.cn-hangzhou.aliyuncs.com/macroldj/minio:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/minio:latest
