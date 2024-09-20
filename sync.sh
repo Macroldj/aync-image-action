@@ -59,6 +59,22 @@ done
 #docker tag docker.io/flannel/flannel:v0.25.6 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.6
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ubuntu:20.04
 
-docker pull minio/minio:latest
-docker tag minio/minio:latest registry.cn-hangzhou.aliyuncs.com/macroldj/minio:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/minio:latest
+#docker pull minio/minio:latest
+#docker tag minio/minio:latest registry.cn-hangzhou.aliyuncs.com/macroldj/minio:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/minio:latest
+
+
+docker pull gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/events:v0.63.0@sha256:709181f33f41654e39a74087194c61a20e515dcc530cbb99af8c8426f4ddc266
+docker pull gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers:v0.63.0@sha256:e3d170eb9bc04c6ee69306529c2f82e84296a52414e136ef16995ac179abcd12
+docker pull gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.63.0@sha256:66333eecff97acf5e5e0de9c104d51de9c507aa75361b0d94f5af583306ea18a
+docker pull gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:v0.63.0@sha256:fd66b42c1076dec4430ab6767919e56c95b6a547c9696c40e06329c7b3b932ba
+
+docker tag gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/events:v0.63.0@sha256:709181f33f41654e39a74087194c61a20e515dcc530cbb99af8c8426f4ddc266 registry.cn-hangzhou.aliyuncs.com/macroldj/tektoncd-pipeline-events:v0.63.0
+docker tag gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/resolvers:v0.63.0@sha256:e3d170eb9bc04c6ee69306529c2f82e84296a52414e136ef16995ac179abcd12 registry.cn-hangzhou.aliyuncs.com/macroldj/tektoncd-pipeline-resolvers:v0.63.0
+docker tag gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/webhook:v0.63.0@sha256:66333eecff97acf5e5e0de9c104d51de9c507aa75361b0d94f5af583306ea18a registry.cn-hangzhou.aliyuncs.com/macroldj/tektoncd-pipeline-webhook:v0.63.0
+docker tag gcr.io/tekton-releases/github.com/tektoncd/pipeline/cmd/controller:v0.63.0@sha256:fd66b42c1076dec4430ab6767919e56c95b6a547c9696c40e06329c7b3b932ba registry.cn-hangzhou.aliyuncs.com/macroldj/tektoncd-pipeline-controller:v0.63.0
+
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/tektoncd-pipeline-events:v0.63.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/tektoncd-pipeline-resolvers:v0.63.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/tektoncd-pipeline-webhook:v0.63.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/tektoncd-pipeline-controller:v0.63.0
