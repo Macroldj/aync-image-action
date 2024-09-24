@@ -64,10 +64,7 @@ done
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/minio:latest
 
 
-docker pull rancher/mirrored-coredns-coredns:1.11.3
-docker tag rancher/mirrored-coredns-coredns:1.11.3 registry.cn-hangzhou.aliyuncs.com/macroldj/coredns:1.11.3
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/coredns:1.11.3
+docker pull rancher/rancher:v2.9.2
+docker tag rancher/rancher:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.9.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.9.2
 
-docker pull rancher/mirrored-pause:3.6
-docker tag rancher/mirrored-pause:3.6 registry.cn-hangzhou.aliyuncs.com/macroldj/pause:3.6
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/pause:3.6
