@@ -64,7 +64,6 @@ done
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/minio:latest
 
 
-docker pull rancher/rancher:v2.9.2
-docker tag rancher/rancher:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.9.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.9.2
-
+docker pull rancher/rancher-agent:v2.9.2
+docker tag rancher/rancher-agent:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
