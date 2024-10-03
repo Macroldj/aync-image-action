@@ -124,6 +124,10 @@ done
 #docker tag ghcr.io/prometheus-operator/prometheus-config-reloader:v0.73.2 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-config-reloader:v0.73.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-config-reloader:v0.73.2
 
-docker pull prom/prometheus:v2.52.0
-docker tag prom/prometheus:v2.52.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v2.52.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v2.52.0
+#docker pull prom/prometheus:v2.52.0
+#docker tag prom/prometheus:v2.52.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v2.52.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v2.52.0
+
+docker pull docker.io/grafana/loki:3.0.0
+docker tag docker.io/grafana/loki:3.0.0 registry.cn-hangzhou.aliyuncs.com/macroldj/loki:3.0.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/loki:3.0.0
