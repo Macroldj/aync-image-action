@@ -165,6 +165,18 @@ done
 #docker tag docker.io/rancher/mirrored-ingress-nginx-kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6 registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v20221220-controller-v1.5.1-58-g787ea74b6
 
-docker pull docker.io/rancher/mirrored-prometheus-node-exporter:v1.7.0
-docker tag docker.io/rancher/mirrored-prometheus-node-exporter:v1.7.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-node-exporter:v1.7.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-node-exporter:v1.7.0
+#docker pull docker.io/rancher/mirrored-prometheus-node-exporter:v1.7.0
+#docker tag docker.io/rancher/mirrored-prometheus-node-exporter:v1.7.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-node-exporter:v1.7.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-node-exporter:v1.7.0
+
+docker pull docker.io/rancher/mirrored-prometheus-operator-prometheus-operator:v0.72.0
+docker pull rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1
+docker pull rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0
+
+docker tag docker.io/rancher/mirrored-prometheus-operator-prometheus-operator:v0.72.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-operator-prometheus-operator:v0.72.0
+docker tag rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1 registry.cn-hangzhou.aliyuncs.com/macroldj/kiwigrid-k8s-sidecar:1.26.1
+docker tag rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-adapter-prometheus-adapter:v0.12.0
+
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-operator-prometheus-operator:v0.72.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kiwigrid-k8s-sidecar:1.26.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-adapter-prometheus-adapter:v0.12.0
