@@ -197,12 +197,16 @@ done
 #docker tag docker.io/rancher/mirrored-prometheus-prometheus:v2.50.1 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-prometheus:v2.50.1
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-prometheus:v2.50.1
 
-docker pull rancher/mirrored-library-nginx:1.24.0-alpine
-docker tag rancher/mirrored-library-nginx:1.24.0-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/library-nginx:1.24.0-alpine
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/library-nginx:1.24.0-alpine
+#docker pull rancher/mirrored-library-nginx:1.24.0-alpine
+#docker tag rancher/mirrored-library-nginx:1.24.0-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/library-nginx:1.24.0-alpine
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/library-nginx:1.24.0-alpine
 
-docker pull rancher/mirrored-grafana-grafana:10.3.3
-docker tag rancher/mirrored-grafana-grafana:10.3.3 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-grafana:10.3.3
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-grafana:10.3.3
+#docker pull rancher/mirrored-grafana-grafana:10.3.3
+#docker tag rancher/mirrored-grafana-grafana:10.3.3 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-grafana:10.3.3
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-grafana:10.3.3
+
+docker pull rancher/kubectl:v1.29.2
+docker tag rancher/kubectl:v1.29.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
 
 
