@@ -128,6 +128,11 @@ done
 #docker tag prom/prometheus:v2.52.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v2.52.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v2.52.0
 
-docker pull docker.io/grafana/loki:3.0.0
-docker tag docker.io/grafana/loki:3.0.0 registry.cn-hangzhou.aliyuncs.com/macroldj/loki:3.0.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/loki:3.0.0
+#docker pull docker.io/grafana/loki:3.0.0
+#docker tag docker.io/grafana/loki:3.0.0 registry.cn-hangzhou.aliyuncs.com/macroldj/loki:3.0.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/loki:3.0.0
+
+# rancher
+docker pull rancher/rancher:v2.9.2
+docker tag rancher/rancher:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.9.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.9.2
