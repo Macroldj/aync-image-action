@@ -189,10 +189,20 @@ done
 #docker tag docker.io/rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-operator-prometheus-config-reloader:v0.72.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-operator-prometheus-config-reloader:v0.72.0
 
-docker pull docker.io/rancher/mirrored-prometheus-alertmanager:v0.27.0
-docker tag docker.io/rancher/mirrored-prometheus-alertmanager:v0.27.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-alertmanager:v0.27.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-alertmanager:v0.27.0
+#docker pull docker.io/rancher/mirrored-prometheus-alertmanager:v0.27.0
+#docker tag docker.io/rancher/mirrored-prometheus-alertmanager:v0.27.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-alertmanager:v0.27.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-alertmanager:v0.27.0
 
-docker pull docker.io/rancher/mirrored-prometheus-prometheus:v2.50.1
-docker tag docker.io/rancher/mirrored-prometheus-prometheus:v2.50.1 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-prometheus:v2.50.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-prometheus:v2.50.1
+#docker pull docker.io/rancher/mirrored-prometheus-prometheus:v2.50.1
+#docker tag docker.io/rancher/mirrored-prometheus-prometheus:v2.50.1 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-prometheus:v2.50.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-prometheus:v2.50.1
+
+docker pull rancher/mirrored-library-nginx:1.24.0-alpine
+docker tag rancher/mirrored-library-nginx:1.24.0-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/library-nginx:1.24.0-alpine
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/library-nginx:1.24.0-alpine
+
+docker pull rancher/mirrored-grafana-grafana:10.3.3
+docker tag rancher/mirrored-grafana-grafana:10.3.3 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-grafana:10.3.3
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-grafana:10.3.3
+
+
