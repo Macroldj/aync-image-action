@@ -75,10 +75,39 @@ done
 #docker tag juicedata/mount:ce-v1.2.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mount:ce-v1.2.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mount:ce-v1.2.0
 
+# istio
 #docker pull docker.io/istio/pilot:1.23.2
 #docker tag docker.io/istio/pilot:1.23.2 registry.cn-hangzhou.aliyuncs.com/macroldj/pilot:1.23.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/pilot:1.23.2
 
-docker pull docker.io/istio/proxyv2:1.23.2
-docker tag docker.io/istio/proxyv2:1.23.2 registry.cn-hangzhou.aliyuncs.com/macroldj/proxyv2:1.23.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/proxyv2:1.23.2
+#docker pull docker.io/istio/proxyv2:1.23.2
+#docker tag docker.io/istio/proxyv2:1.23.2 registry.cn-hangzhou.aliyuncs.com/macroldj/proxyv2:1.23.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/proxyv2:1.23.2
+
+docker pull docker.io/istio/examples-bookinfo-productpage-v1:1.20.1
+docker tag docker.io/istio/examples-bookinfo-productpage-v1:1.20.1 registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-productpage-v1:1.20.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-productpage-v1:1.20.1
+
+docker pull docker.io/istio/examples-bookinfo-productpage-v1:1.20.1
+docker tag docker.io/istio/examples-bookinfo-productpage-v1:1.20.1 registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-productpage-v1:1.20.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-productpage-v1:1.20.1
+
+docker pull docker.io/istio/examples-bookinfo-reviews-v1:1.20.1
+docker tag docker.io/istio/examples-bookinfo-reviews-v1:1.20.1 registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-reviews-v1:1.20.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-reviews-v1:1.20.1
+
+docker pull docker.io/istio/examples-bookinfo-reviews-v2:1.20.1
+docker tag docker.io/istio/examples-bookinfo-reviews-v2:1.20.1 registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-reviews-v2:1.20.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-reviews-v2:1.20.1
+
+docker pull docker.io/istio/examples-bookinfo-reviews-v3:1.20.1
+docker tag docker.io/istio/examples-bookinfo-reviews-v3:1.20.1 registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-reviews-v3:1.20.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-reviews-v3:1.20.1
+
+docker pull docker.io/istio/examples-bookinfo-ratings-v1:1.20.1
+docker tag docker.io/istio/examples-bookinfo-ratings-v1:1.20.1 registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-ratings-v1:1.20.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-ratings-v1:1.20.1
+
+docker pull docker.io/istio/examples-bookinfo-details-v1:1.20.1
+docker tag docker.io/istio/examples-bookinfo-details-v1:1.20.1 registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-details-v1:1.20.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/examples-bookinfo-details-v1:1.20.1
