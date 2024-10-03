@@ -205,8 +205,11 @@ done
 #docker tag rancher/mirrored-grafana-grafana:10.3.3 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-grafana:10.3.3
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-grafana:10.3.3
 
-docker pull rancher/kubectl:v1.29.2
-docker tag rancher/kubectl:v1.29.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
+#docker pull rancher/kubectl:v1.29.2
+#docker tag rancher/kubectl:v1.29.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
 
+docker pull rancher/mirrored-kube-logging-logging-operator:4.8.0
+docker tag rancher/mirrored-kube-logging-logging-operator:4.8.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kube-logging-logging-operator:4.8.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kube-logging-logging-operator:4.8.0
 
