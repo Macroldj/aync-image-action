@@ -181,7 +181,10 @@ done
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kiwigrid-k8s-sidecar:1.26.1
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-adapter-prometheus-adapter:v0.12.0
 
-docker pull docker.io/rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
-docker tag docker.io/rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1 registry.cn-hangzhou.aliyuncs.com/macroldj/kube-state-metrics-kube-state-metrics:v2.10.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kube-state-metrics-kube-state-metrics:v2.10.1
+#docker pull docker.io/rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
+#docker tag docker.io/rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1 registry.cn-hangzhou.aliyuncs.com/macroldj/kube-state-metrics-kube-state-metrics:v2.10.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kube-state-metrics-kube-state-metrics:v2.10.1
 
+docker pull docker.io/rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0
+docker tag docker.io/rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-operator-prometheus-config-reloader:v0.72.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-operator-prometheus-config-reloader:v0.72.0
