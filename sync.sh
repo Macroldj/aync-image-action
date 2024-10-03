@@ -137,10 +137,10 @@ done
 #docker tag rancher/rancher:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.9.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.9.2
 
-docker pull rancher/shell:v0.2.1
-docker tag rancher/shell:v0.2.1 registry.cn-hangzhou.aliyuncs.com/macroldj/shell:v0.2.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/shell:v0.2.1
+#docker pull rancher/shell:v0.2.1
+#docker tag rancher/shell:v0.2.1 registry.cn-hangzhou.aliyuncs.com/macroldj/shell:v0.2.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/shell:v0.2.1
 
-docker pull rancher/rancher-webhook:v0.2.1
-docker tag rancher/rancher-webhook:v0.2.1 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-webhook:v0.2.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-webhook:v0.2.1
+docker pull rancher/rancher-webhook:v0.5.2
+docker tag rancher/rancher-webhook:v0.5.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-webhook:v0.5.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-webhook:v0.5.2
