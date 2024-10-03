@@ -75,6 +75,10 @@ done
 #docker tag juicedata/mount:ce-v1.2.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mount:ce-v1.2.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mount:ce-v1.2.0
 
-docker pull docker.io/istio/pilot:1.23.2
-docker tag docker.io/istio/pilot:1.23.2 registry.cn-hangzhou.aliyuncs.com/macroldj/pilot:1.23.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/pilot:1.23.2
+#docker pull docker.io/istio/pilot:1.23.2
+#docker tag docker.io/istio/pilot:1.23.2 registry.cn-hangzhou.aliyuncs.com/macroldj/pilot:1.23.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/pilot:1.23.2
+
+docker pull docker.io/istio/proxyv2:1.23.2
+docker tag docker.io/istio/proxyv2:1.23.2 registry.cn-hangzhou.aliyuncs.com/macroldj/proxyv2:1.23.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/proxyv2:1.23.2
