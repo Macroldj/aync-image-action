@@ -141,6 +141,14 @@ done
 #docker tag rancher/shell:v0.2.1 registry.cn-hangzhou.aliyuncs.com/macroldj/shell:v0.2.1
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/shell:v0.2.1
 
-docker pull rancher/rancher-webhook:v0.5.2
-docker tag rancher/rancher-webhook:v0.5.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-webhook:v0.5.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-webhook:v0.5.2
+#docker pull rancher/rancher-webhook:v0.5.2
+#docker tag rancher/rancher-webhook:v0.5.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-webhook:v0.5.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-webhook:v0.5.2
+
+docker pull rancher/fleet:v0.10.2
+docker tag rancher/fleet:v0.10.2 registry.cn-hangzhou.aliyuncs.com/macroldj/fleet:v0.10.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/fleet:v0.10.2
+
+docker pull rancher/mirrored-cluster-api-controller:v1.7.3
+docker tag rancher/mirrored-cluster-api-controller:v1.7.3 registry.cn-hangzhou.aliyuncs.com/macroldj/cluster-api-controller:v1.7.3
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cluster-api-controller:v1.7.3
