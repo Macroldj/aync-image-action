@@ -153,6 +153,10 @@ done
 #docker tag rancher/mirrored-cluster-api-controller:v1.7.3 registry.cn-hangzhou.aliyuncs.com/macroldj/cluster-api-controller:v1.7.3
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cluster-api-controller:v1.7.3
 
-docker pull rancher/fleet-agent:v0.10.2
-docker tag rancher/fleet-agent:v0.10.2 registry.cn-hangzhou.aliyuncs.com/macroldj/fleet-agent:v0.10.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/fleet-agent:v0.10.2
+#docker pull rancher/fleet-agent:v0.10.2
+#docker tag rancher/fleet-agent:v0.10.2 registry.cn-hangzhou.aliyuncs.com/macroldj/fleet-agent:v0.10.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/fleet-agent:v0.10.2
+
+docker pull rancher/mirrored-cluster-api-controller:v1.7.3
+docker tag rancher/mirrored-cluster-api-controller:v1.7.3 registry.cn-hangzhou.aliyuncs.com/macroldj/cluster-api-controller:v1.7.3
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cluster-api-controller:v1.7.3
