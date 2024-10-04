@@ -225,8 +225,16 @@ done
 #docker tag rancher/mirrored-jimmidyson-configmap-reload:v0.4.0 registry.cn-hangzhou.aliyuncs.com/macroldj/jimmidyson-configmap-reload:v0.4.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jimmidyson-configmap-reload:v0.4.0
 
-docker pull rancher/rancher-agent:v2.9.2
-docker tag rancher/rancher-agent:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
+#docker pull rancher/rancher-agent:v2.9.2
+#docker tag rancher/rancher-agent:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
+
+docker pull	registry.k8s.io/ingress-nginx/controller:v1.11.2@sha256:d5f8217feeac4887cb1ed21f27c2674e58be06bd8f5184cacea2a69abaf78dce
+docker tag registry.k8s.io/ingress-nginx/controller:v1.11.2@sha256:d5f8217feeac4887cb1ed21f27c2674e58be06bd8f5184cacea2a69abaf78dce registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-controller:v1.11.2@sha256:d5f8217feeac4887cb1ed21f27c2674e58be06bd8f5184cacea2a69abaf78dce
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-controller:v1.11.2@sha256:d5f8217feeac4887cb1ed21f27c2674e58be06bd8f5184cacea2a69abaf78dce
+
+docker pull registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3@sha256:a320a50cc91bd15fd2d6fa6de58bd98c1bd64b9a6f926ce23a600d87043455a3
+docker tag registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3@sha256:a320a50cc91bd15fd2d6fa6de58bd98c1bd64b9a6f926ce23a600d87043455a3 registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3@sha256:a320a50cc91bd15fd2d6fa6de58bd98c1bd64b9a6f926ce23a600d87043455a3
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3@sha256:a320a50cc91bd15fd2d6fa6de58bd98c1bd64b9a6f926ce23a600d87043455a3
 ```
 
