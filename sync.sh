@@ -213,6 +213,15 @@ done
 #docker tag rancher/mirrored-kube-logging-logging-operator:4.8.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kube-logging-logging-operator:4.8.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kube-logging-logging-operator:4.8.0
 
-docker pull rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full
-docker tag rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full registry.cn-hangzhou.aliyuncs.com/macroldj/kube-logging-fluentd:v1.16-4.8-full
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kube-logging-fluentd:v1.16-4.8-full
+#docker pull rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full
+#docker tag rancher/mirrored-kube-logging-fluentd:v1.16-4.8-full registry.cn-hangzhou.aliyuncs.com/macroldj/kube-logging-fluentd:v1.16-4.8-full
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kube-logging-fluentd:v1.16-4.8-full
+
+docker pull rancher/mirrored-fluent-fluent-bit:2.2.0
+docker tag rancher/mirrored-fluent-fluent-bit:2.2.0 registry.cn-hangzhou.aliyuncs.com/macroldj/fluent-fluent-bit:2.2.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/fluent-fluent-bit:2.2.0
+
+docker pull rancher/mirrored-jimmidyson-configmap-reload:v0.4.0
+docker tag rancher/mirrored-jimmidyson-configmap-reload:v0.4.0 registry.cn-hangzhou.aliyuncs.com/macroldj/jimmidyson-configmap-reload:v0.4.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jimmidyson-configmap-reload:v0.4.0
+
