@@ -229,11 +229,11 @@ done
 #docker tag rancher/rancher-agent:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
 
-docker pull	registry.k8s.io/ingress-nginx/controller:v1.11.2
-docker tag registry.k8s.io/ingress-nginx/controller:v1.11.2 registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-controller:v1.11.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-controller:v1.11.2
+#docker pull	registry.k8s.io/ingress-nginx/controller:v1.11.2
+#docker tag registry.k8s.io/ingress-nginx/controller:v1.11.2 registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-controller:v1.11.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-controllernginx-controller:v1.11.2
 
-docker pull registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3
-docker tag registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3 registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
+#docker pull registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3
+#docker tag registry.k8s.io/ingress-nginx/kube-webhook-certgen:v1.4.3 registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
 
