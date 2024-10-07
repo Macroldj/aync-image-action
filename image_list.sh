@@ -1,2 +1,2 @@
-postgres:16.4
-adminer:4.8.1
+node:20.18.0
+golang:1.22
