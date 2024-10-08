@@ -238,3 +238,8 @@ done
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
 
 
+#docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/node:20.18.0
+#docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22
+
+#docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/node:20.18.0 node:20.18.0
+#docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22 golang:1.22
