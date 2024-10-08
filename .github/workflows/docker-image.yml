@@ -17,4 +17,5 @@ jobs:
       run: |
         docker login --username=15682816850 registry.cn-hangzhou.aliyuncs.com --password=${{ secrets.PASSWORD }}
         bash sync.sh
-        docker build -t docker push registry.cn-hangzhou.aliyuncs.com/macroldj/debian:stable-slim-stl .
+        docker build -t registry.cn-hangzhou.aliyuncs.com/macroldj/debian:stable-slim-stl .
+        docker push registry.cn-hangzhou.aliyuncs.com/macroldj/debian:stable-slim-stl
