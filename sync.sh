@@ -245,6 +245,10 @@ done
 #docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22 golang:1.22
 
 
-docker pull docker.elastic.co/elasticsearch/elasticsearch:8.5.1
-docker tag docker.elastic.co/elasticsearch/elasticsearch:8.5.1 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.5.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.5.1
+#docker pull docker.elastic.co/elasticsearch/elasticsearch:8.5.1
+#docker tag docker.elastic.co/elasticsearch/elasticsearch:8.5.1 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.5.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.5.1
+
+docker pull docker.elastic.co/kibana/kibana:8.5.1
+docker tag docker.elastic.co/kibana/kibana:8.5.1 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.5.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.5.1
