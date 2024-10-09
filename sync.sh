@@ -253,10 +253,10 @@ done
 #docker tag docker.elastic.co/kibana/kibana:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
 
-docker pull elastic/filebeat:7.17.24
-docker tag elastic/filebeat:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:7.17.24
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:7.17.24
+#docker pull elastic/filebeat:7.17.24
+#docker tag elastic/filebeat:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:7.17.24
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:7.17.24
 
-docker pull elastic/kibana:7.17.24
+docker pull kibana:7.17.24
 docker tag kibana:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
