@@ -245,18 +245,18 @@ done
 #docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22 golang:1.22
 
 
-docker pull docker.elastic.co/elasticsearch/elasticsearch:7.17.24
-docker tag docker.elastic.co/elasticsearch/elasticsearch:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.24
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.24
+#docker pull docker.elastic.co/elasticsearch/elasticsearch:7.17.24
+#docker tag docker.elastic.co/elasticsearch/elasticsearch:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.24
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.24
 
 #docker pull docker.elastic.co/kibana/kibana:7.17.24
 #docker tag docker.elastic.co/kibana/kibana:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
 
-#docker pull elastic/filebeat:8.15.1
-#docker tag elastic/filebeat:8.15.1 registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:8.15.1
-#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:8.15.1
+docker pull elastic/filebeat:7.17.24
+docker tag elastic/filebeat:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:7.17.24
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:7.17.24
 
-docker pull kibana:7.17.24
+docker pull elastic/kibana:7.17.24
 docker tag kibana:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
