@@ -257,6 +257,6 @@ done
 #docker tag elastic/filebeat:8.15.1 registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:8.15.1
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:8.15.1
 
-docker pull kibana:8.15.2
-docker tag kibana:8.15.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.15.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.15.2
+docker pull kibana:8.5.2
+docker tag kibana:8.5.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.5.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.5.2
