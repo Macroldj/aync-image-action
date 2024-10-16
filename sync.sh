@@ -257,6 +257,10 @@ done
 #docker tag elastic/filebeat:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:7.17.24
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/filebeat:7.17.24
 
-docker pull kibana:7.17.24
-docker tag kibana:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
+#docker pull kibana:7.17.24
+#docker tag kibana:7.17.24 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.24
+
+docker pull aquasec/trivy:0.56.2
+docker tag aquasec/trivy:0.56.2 registry.cn-hangzhou.aliyuncs.com/macroldj/trivy:0.56.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/trivy:0.56.2
