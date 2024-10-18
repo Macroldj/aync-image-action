@@ -264,3 +264,11 @@ done
 #docker pull aquasec/trivy:0.56.2
 #docker tag aquasec/trivy:0.56.2 registry.cn-hangzhou.aliyuncs.com/macroldj/trivy:0.56.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/trivy:0.56.2
+
+docker pull openkruise/kruise-controller:v1.7.0
+docker tag openkruise/kruise-controller:v1.7.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-controller:v1.7.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-controller:v1.7.0
+
+docker pull openkruise/kruise-manager:v1.7.0
+docker tag openkruise/kruise-manager:v1.7.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.7.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.7.0
