@@ -289,6 +289,10 @@ done
 #docker tag calico/pod2daemon-flexvol:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-pod2daemon-flexvol:v3.28.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-pod2daemon-flexvol:v3.28.2
 
-docker pull calico/csi:v3.28.2
-docker tag calico/csi:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-csi:v3.28.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-csi:v3.28.2
+#docker pull calico/csi:v3.28.2
+#docker tag calico/csi:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-csi:v3.28.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-csi:v3.28.2
+
+docker pull calico/cni:v3.28.2
+docker tag calico/cni:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-cni:v3.28.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-cni:v3.28.2
