@@ -273,14 +273,18 @@ done
 #docker tag openkruise/kruise-manager:v1.7.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.7.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.7.0
 
-docker pull calico/kube-controllers:v3.28.2
-docker tag calico/kube-controllers:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-kube-controllers:v3.28.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-kube-controllers:v3.28.2
+#docker pull calico/kube-controllers:v3.28.2
+#docker tag calico/kube-controllers:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-kube-controllers:v3.28.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-kube-controllers:v3.28.2
 
-docker pull calico/typha:v3.28.2
-docker tag calico/typha:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-typha:v3.28.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-typha:v3.28.2
+#docker pull calico/typha:v3.28.2
+#docker tag calico/typha:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-typha:v3.28.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-typha:v3.28.2
 
-docker pull calico/node-driver-registrar:v3.28.2
-docker tag calico/node-driver-registrar:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-node-driver-registrar:v3.28.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-node-driver-registrar:v3.28.2
+#docker pull calico/node-driver-registrar:v3.28.2
+#docker tag calico/node-driver-registrar:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-node-driver-registrar:v3.28.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-node-driver-registrar:v3.28.2
+
+docker pull calico/pod2daemon-flexvol:v3.28.2
+docker tag calico/pod2daemon-flexvol:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-pod2daemon-flexvol:v3.28.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-pod2daemon-flexvol:v3.28.2
