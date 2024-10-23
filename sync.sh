@@ -321,6 +321,26 @@ done
 #docker tag openkruise/kruise-game-manager:v0.9.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-game-manager:v0.9.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-game-manager:v0.9.0
 
-docker docker.io/rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.3
-docker tag docker.io/rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.3 registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
+#docker docker.io/rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.3
+#docker tag docker.io/rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.3 registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
+
+docker pull rancher/mirrored-prometheus-node-exporter:v1.7.0
+docker tag rancher/mirrored-prometheus-node-exporter:v1.7.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-node-exporter:v1.7.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-node-exporter:v1.7.0
+
+docker pull rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0
+docker tag rancher/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-adapter-prometheus-adapter:v0.12.0
+
+docker pull rancher/mirrored-prometheus-operator-prometheus-operator:v0.72.0
+docker tag rancher/mirrored-prometheus-operator-prometheus-operator:v0.72.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-operator-prometheus-operator:v0.72.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-operator-prometheus-operator:v0.72.0
+
+docker pull rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
+docker tag rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
+
+docker pull rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1
+docker tag rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1
