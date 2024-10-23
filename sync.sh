@@ -346,4 +346,10 @@ docker pull rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1
 docker tag rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-kiwigrid-k8s-sidecar:1.26.1
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-kiwigrid-k8s-sidecar:1.26.1
 
+docker pull rancher/mirrored-library-nginx:1.24.0-alpine
+docker tag rancher/mirrored-library-nginx:1.24.0-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-nginx:1.24.0-alpine
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-nginx:1.24.0-alpine
 
+docker pull rancher/mirrored-grafana-grafana:10.4.9
+docker tag rancher/mirrored-grafana-grafana:10.4.9 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-grafana:10.4.9
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-grafana:10.4.9
