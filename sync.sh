@@ -317,6 +317,10 @@ done
 #docker tag openkruise/kruise-manager:v1.7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.7.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.7.2
 
-docker pull openkruise/kruise-game-manager:v0.9.0
-docker tag openkruise/kruise-game-manager:v0.9.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-game-manager:v0.9.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-game-manager:v0.9.0
+#docker pull openkruise/kruise-game-manager:v0.9.0
+#docker tag openkruise/kruise-game-manager:v0.9.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-game-manager:v0.9.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-game-manager:v0.9.0
+
+docker docker.io/rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.3
+docker tag docker.io/rancher/mirrored-ingress-nginx-kube-webhook-certgen:v1.4.3 registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ingress-nginx-kube-webhook-certgen:v1.4.3
