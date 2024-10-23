@@ -338,9 +338,7 @@ docker tag rancher/mirrored-prometheus-operator-prometheus-operator:v0.72.0 regi
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-operator-prometheus-operator:v0.72.0
 
 docker pull rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
-docker tag rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
+docker tag rancher/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
 
-docker pull rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1
-docker tag rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher/mirrored-kiwigrid-k8s-sidecar:1.26.1
+
