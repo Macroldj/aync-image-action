@@ -297,6 +297,10 @@ done
 #docker tag calico/cni:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-cni:v3.28.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-cni:v3.28.2
 
-docker pull docker.io/calico/node:v3.28.2
-docker tag docker.io/calico/node:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-node:v3.28.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-node:v3.28.2
+#docker pull docker.io/calico/node:v3.28.2
+#docker tag docker.io/calico/node:v3.28.2 registry.cn-hangzhou.aliyuncs.com/macroldj/calico-node:v3.28.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/calico-node:v3.28.2
+
+docker pull docker.io/flannel/flannel:v0.24.3
+docker tag docker.io/flannel/flannel:v0.24.3 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.24.3
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.24.3
