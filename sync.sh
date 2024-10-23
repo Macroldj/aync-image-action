@@ -305,6 +305,6 @@ done
 #docker tag docker.io/flannel/flannel:v0.24.3 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.24.3
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.24.3
 
-docker pull rancher/rancher/mirrored-cluster-api-controller:v1.7.3
-docker tag rancher/rancher/mirrored-cluster-api-controller:v1.7.3 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-cluster-api-controller:v1.7.3
+docker pull rancher/mirrored-cluster-api-controller:v1.7.3
+docker tag rancher/mirrored-cluster-api-controller:v1.7.3 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-cluster-api-controller:v1.7.3
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-cluster-api-controller:v1.7.3
