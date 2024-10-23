@@ -309,6 +309,14 @@ done
 #docker tag rancher/mirrored-cluster-api-controller:v1.7.3 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-cluster-api-controller:v1.7.3
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-cluster-api-controller:v1.7.3
 
-docker pull rancher/kubectl:v1.29.2
-docker tag rancher/kubectl:v1.29.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
+#docker pull rancher/kubectl:v1.29.2
+#docker tag rancher/kubectl:v1.29.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
+
+docker pull openkruise/kruise-manager:v1.7.2
+docker tag openkruise/kruise-manager:v1.7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.7.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.7.2
+
+docker pull openkruise/kruise-controller:v1.7.2
+docker tag openkruise/kruise-controller:v1.7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-controller:v1.7.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-controller:v1.7.2
