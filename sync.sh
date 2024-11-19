@@ -354,7 +354,12 @@ done
 #docker tag rancher/mirrored-grafana-grafana:10.4.9 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-grafana:10.4.9
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-grafana:10.4.9
 
-docker pull gcr.io/distroless/static:nonroot
-docker tag gcr.io/distroless/static:nonroot registry.cn-hangzhou.aliyuncs.com/macroldj/static:nonroot
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/static:nonroot
+#docker pull gcr.io/distroless/static:nonroot
+#docker tag gcr.io/distroless/static:nonroot registry.cn-hangzhou.aliyuncs.com/macroldj/static:nonroot
+#docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/static:nonroot
+#docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/static:nonroot gcr.io/distroless/static:nonroot
 
+
+docker pull clickhouse/clickhouse-server:22.2.3.5
+docker tag clickhouse/clickhouse-server:22.2.3.5 registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:22.2.3.5
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:22.2.3.5
