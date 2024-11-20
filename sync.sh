@@ -359,6 +359,10 @@ done
 #docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/static:nonroot
 #docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/static:nonroot gcr.io/distroless/static:nonroot
 
-docker pull clickhouse/clickhouse-server:22.2.3.5
-docker tag clickhouse/clickhouse-server:22.2.3.5 registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:22.2.3.5
-docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:22.2.3.5
+#docker pull clickhouse/clickhouse-server:22.2.3.5
+#docker tag clickhouse/clickhouse-server:22.2.3.5 registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:22.2.3.5
+#docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:22.2.3.5
+
+docker pull rancher/rancher-agent:v2.9.2
+docker tag rancher/rancher-agent:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
