@@ -363,6 +363,10 @@ done
 #docker tag clickhouse/clickhouse-server:22.2.3.5 registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:22.2.3.5
 #docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:22.2.3.5
 
-docker pull rancher/rancher-agent:v2.9.2
-docker tag rancher/rancher-agent:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
+#docker pull rancher/rancher-agent:v2.9.2
+#docker tag rancher/rancher-agent:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
+
+docker pull influxdb:1.11.8
+docker tag influxdb:1.11.8 registry.cn-hangzhou.aliyuncs.com/macroldj/influxdb:1.11.8
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/influxdb:1.11.8
