@@ -367,6 +367,14 @@ done
 #docker tag rancher/rancher-agent:v2.9.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher-agent:v2.9.2
 
-docker pull influxdb:1.11.8
-docker tag influxdb:1.11.8 registry.cn-hangzhou.aliyuncs.com/macroldj/influxdb:1.11.8
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/influxdb:1.11.8
+#docker pull influxdb:1.11.8
+#docker tag influxdb:1.11.8 registry.cn-hangzhou.aliyuncs.com/macroldj/influxdb:1.11.8
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/influxdb:1.11.8
+
+docker pull registry.rocket.chat/rocketchat/rocket.chat:7.1.0
+docker tag registry.rocket.chat/rocketchat/rocket.chat:7.1.0 registry.cn-hangzhou.aliyuncs.com/macroldj/rocket.chat:7.1.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rocket.chat:7.1.0
+
+docker pull docker.io/bitnami/mongodb:6.0
+docker tag docker.io/bitnami/mongodb:6.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb:6.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb:6.0
