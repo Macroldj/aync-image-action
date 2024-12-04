@@ -371,10 +371,11 @@ done
 #docker tag influxdb:1.11.8 registry.cn-hangzhou.aliyuncs.com/macroldj/influxdb:1.11.8
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/influxdb:1.11.8
 
-docker pull registry.rocket.chat/rocketchat/rocket.chat:latest
-docker tag registry.rocket.chat/rocketchat/rocket.chat:latest registry.cn-hangzhou.aliyuncs.com/macroldj/rocket.chat:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rocket.chat:latest
+#docker pull docker.io/bitnami/mongodb:6.0
+#docker tag docker.io/bitnami/mongodb:6.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb:6.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb:6.0
 
-docker pull docker.io/bitnami/mongodb:6.0
-docker tag docker.io/bitnami/mongodb:6.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb:6.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb:6.0
+docker pull registry.rocket.chat/rocketchat/rocket.chat:6.2.11
+docker tag registry.rocket.chat/rocketchat/rocket.chat:6.2.11 registry.cn-hangzhou.aliyuncs.com/macroldj/rocket.chat:6.2.11
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rocket.chat:6.2.11
+
