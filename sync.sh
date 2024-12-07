@@ -379,6 +379,10 @@ done
 #docker tag registry.rocket.chat/rocketchat/rocket.chat:6.2.11 registry.cn-hangzhou.aliyuncs.com/macroldj/rocket.chat:6.2.11
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rocket.chat:6.2.11
 
-docker pull golang:1.22.10-alpine
-docker tag golang:1.22.10-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine
+#docker pull golang:1.22.10-alpine
+#docker tag golang:1.22.10-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine
+
+docker pull golang:1.22.10-alpine3.21
+docker tag golang:1.22.10-alpine3.21 registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine3.21
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine3.21
