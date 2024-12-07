@@ -383,6 +383,10 @@ done
 #docker tag golang:1.22.10-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine
 
-docker pull golang:1.22.10-alpine3.21
-docker tag golang:1.22.10-alpine3.21 registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine3.21
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine3.21
+#docker pull golang:1.22.10-alpine3.21
+#docker tag golang:1.22.10-alpine3.21 registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine3.21
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.22.10-alpine3.21
+
+docker pull alpine:3.21.0
+docker tag alpine:3.21.0 registry.cn-hangzhou.aliyuncs.com/macroldj/alpine:3.21.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/alpine:3.21.0
