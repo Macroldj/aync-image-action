@@ -391,6 +391,6 @@ done
 #docker tag alpine:3.21.0 registry.cn-hangzhou.aliyuncs.com/macroldj/alpine:3.21.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/alpine:3.21.0
 
-docker pull ubuntu:24.04
-docker tag ubuntu:24.04 registry.cn-hangzhou.aliyuncs.com/macroldj/ubuntu:24.04
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ubuntu:24.04
+docker pull ubuntu:22.04
+docker tag ubuntu:22.04 registry.cn-hangzhou.aliyuncs.com/macroldj/ubuntu:22.04
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ubuntu:22.04
