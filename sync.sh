@@ -395,3 +395,6 @@ done
 #docker tag ubuntu:22.04 registry.cn-hangzhou.aliyuncs.com/macroldj/ubuntu:22.04
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ubuntu:22.04
 
+docker pull jenkins/jenkins:jdk17
+docker tag jenkins/jenkins:jdk17 registry.cn-hangzhou.aliyuncs.com/macroldj/jenkins:jdk17
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jenkins:jdk17
