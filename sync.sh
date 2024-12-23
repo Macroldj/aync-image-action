@@ -398,3 +398,7 @@ done
 docker pull jenkins/jenkins:jdk17
 docker tag jenkins/jenkins:jdk17 registry.cn-hangzhou.aliyuncs.com/macroldj/jenkins:jdk17
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jenkins:jdk17
+
+docker pull openjdk:17
+docker tag openjdk:17 registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:17
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:17
