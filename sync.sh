@@ -402,3 +402,7 @@ docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jenkins:jdk17
 docker pull openjdk:17
 docker tag openjdk:17 registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:17
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:17
+
+docker pull docker:dind
+docker tag docker:dind registry.cn-hangzhou.aliyuncs.com/macroldj/docker:dind
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/docker:dind
