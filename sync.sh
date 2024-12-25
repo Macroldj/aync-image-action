@@ -419,6 +419,10 @@ done
 #docker tag ubuntu/zookeeper:3.8-22.04_edge registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.8-22.04_edge
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.8-22.04_edge
 
-docker pull logstash:8.17.0
-docker tag logstash:8.17.0 registry.cn-hangzhou.aliyuncs.com/macroldj/logstash:8.17.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/logstash:8.17.0
+#docker pull logstash:8.17.0
+#docker tag logstash:8.17.0 registry.cn-hangzhou.aliyuncs.com/macroldj/logstash:8.17.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/logstash:8.17.0
+
+docker pull xuxiangwork/kafka-manager
+docker tag xuxiangwork/kafka-manager registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager
