@@ -407,6 +407,10 @@ done
 #docker tag docker:dind registry.cn-hangzhou.aliyuncs.com/macroldj/docker:dind
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/docker:dind
 
-docker pull wurstmeister/zookeeper
-docker tag wurstmeister/zookeeper registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper
+#docker pull wurstmeister/zookeeper
+#docker tag wurstmeister/zookeeper registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper
+
+docker pull ubuntu/kafka:3.6-22.04_edge
+docker tag ubuntu/kafka:3.6-22.04_edge registry.cn-hangzhou.aliyuncs.com/macroldj/kafka:3.6-22.04_edge
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kafka:3.6-22.04_edge
