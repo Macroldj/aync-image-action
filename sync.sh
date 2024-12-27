@@ -423,6 +423,10 @@ done
 #docker tag logstash:8.17.0 registry.cn-hangzhou.aliyuncs.com/macroldj/logstash:8.17.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/logstash:8.17.0
 
-docker pull xuxiangwork/kafka-manager
-docker tag xuxiangwork/kafka-manager registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager
+#docker pull xuxiangwork/kafka-manager
+#docker tag xuxiangwork/kafka-manager registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager
+
+docker pull portainer/portainer-ce:2.21.5
+docker tag portainer/portainer-ce:2.21.5 registry.cn-hangzhou.aliyuncs.com/macroldj/portainer-ce:2.21.5
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/portainer-ce:2.21.5
