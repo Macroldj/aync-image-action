@@ -431,6 +431,10 @@ done
 #docker tag portainer/portainer-ce:2.21.5 registry.cn-hangzhou.aliyuncs.com/macroldj/portainer-ce:2.21.5
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/portainer-ce:2.21.5
 
-docker pull cnflysky/redroid-rk3588:lineage-20
-docker tag cnflysky/redroid-rk3588:lineage-20 registry.cn-hangzhou.aliyuncs.com/macroldj/redroid-rk3588:lineage-20
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redroid-rk3588:lineage-20
+#docker pull cnflysky/redroid-rk3588:lineage-20
+#docker tag cnflysky/redroid-rk3588:lineage-20 registry.cn-hangzhou.aliyuncs.com/macroldj/redroid-rk3588:lineage-20
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redroid-rk3588:lineage-20
+
+docker pull nginx:1.27.3
+docker tag nginx:1.27.3 registry.cn-hangzhou.aliyuncs.com/macroldj/nginx:1.27.3
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/nginx:1.27.3
