@@ -435,6 +435,10 @@ done
 #docker tag cnflysky/redroid-rk3588:lineage-20 registry.cn-hangzhou.aliyuncs.com/macroldj/redroid-rk3588:lineage-20
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redroid-rk3588:lineage-20
 
-docker pull nginx:1.27.3
-docker tag nginx:1.27.3 registry.cn-hangzhou.aliyuncs.com/macroldj/nginx:1.27.3
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/nginx:1.27.3
+#docker pull nginx:1.27.3
+#docker tag nginx:1.27.3 registry.cn-hangzhou.aliyuncs.com/macroldj/nginx:1.27.3
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/nginx:1.27.3
+
+docker pull zookeeper:3.7.2
+docker tag zookeeper:3.7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.7.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.7.2
