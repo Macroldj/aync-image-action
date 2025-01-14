@@ -443,6 +443,10 @@ done
 #docker tag onmodulus/census:1.2.0 registry.cn-hangzhou.aliyuncs.com/macroldj/census:1.2.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/census:1.2.0
 
-docker pull bitnami/prometheus:3.0.1
-docker tag bitnami/prometheus:3.0.1 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:3.0.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:3.0.1
+#docker pull bitnami/prometheus:3.0.1
+#docker tag bitnami/prometheus:3.0.1 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:3.0.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:3.0.1
+
+docker pull jaegertracing/all-in-one:latest
+docker tag jaegertracing/all-in-one:latest registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:latest
