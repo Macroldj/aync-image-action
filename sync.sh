@@ -439,6 +439,10 @@ done
 #docker tag nginx:1.27.3 registry.cn-hangzhou.aliyuncs.com/macroldj/nginx:1.27.3
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/nginx:1.27.3
 
-docker pull onmodulus/census:1.2.0
-docker tag onmodulus/census:1.2.0 registry.cn-hangzhou.aliyuncs.com/macroldj/census:1.2.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/census:1.2.0
+#docker pull onmodulus/census:1.2.0
+#docker tag onmodulus/census:1.2.0 registry.cn-hangzhou.aliyuncs.com/macroldj/census:1.2.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/census:1.2.0
+
+docker pull bitnami/prometheus:3.0.1
+docker tag bitnami/prometheus:3.0.1 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:3.0.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:3.0.1
