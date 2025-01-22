@@ -451,6 +451,11 @@ done
 #docker tag jaegertracing/all-in-one:latest registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:latest
 
-docker pull gitlab/gitlab-ce:17.8.0-ce.0
-docker tag gitlab/gitlab-ce:17.8.0-ce.0 registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ce:17.8.0-ce.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ce:17.8.0-ce.0
+#docker pull gitlab/gitlab-ce:17.8.0-ce.0
+#docker tag gitlab/gitlab-ce:17.8.0-ce.0 registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ce:17.8.0-ce.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ce:17.8.0-ce.0
+
+docker pull gitlab/gitlab-ee:17.8.0-ee.0
+docker tag gitlab/gitlab-ee:17.8.0-ee.0 registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ee:17.8.0-ee.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ee:17.8.0-ee.0
+
