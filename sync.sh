@@ -447,6 +447,10 @@ done
 #docker tag bitnami/prometheus:3.0.1 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:3.0.1
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:3.0.1
 
-docker pull jaegertracing/all-in-one:latest
-docker tag jaegertracing/all-in-one:latest registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:latest
+#docker pull jaegertracing/all-in-one:latest
+#docker tag jaegertracing/all-in-one:latest registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:latest
+
+docker pull gitlab/gitlab-ce:17.8.0-ce.0
+docker tag gitlab/gitlab-ce:17.8.0-ce.0 registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ce:17.8.0-ce.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ce:17.8.0-ce.0
