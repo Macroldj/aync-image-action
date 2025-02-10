@@ -478,3 +478,7 @@ done
 #docker pull centos:7
 #docker tag centos:7 registry.cn-hangzhou.aliyuncs.com/macroldj/centos:7
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/centos:7
+
+docker pull openjdk:17
+docker tag openjdk:17 registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:17
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:17
