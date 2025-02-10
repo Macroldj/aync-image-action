@@ -459,22 +459,22 @@ done
 #docker tag gitlab/gitlab-ee:17.8.0-ee.0 registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ee:17.8.0-ee.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ee:17.8.0-ee.0
 
-docker pull golang:1.21
-docker tag golang:1.21 registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.21
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.21
+#docker pull golang:1.21
+#docker tag golang:1.21 registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.21
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.21
 
-docker pull docker:20.10.17
-docker tag docker:20.10.17 registry.cn-hangzhou.aliyuncs.com/macroldj/docker:20.10.17
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/docker:20.10.17
+#docker pull docker:20.10.17
+#docker tag docker:20.10.17 registry.cn-hangzhou.aliyuncs.com/macroldj/docker:20.10.17
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/docker:20.10.17
 
-docker pull jenkins/inbound-agent:3206.vb_15dcf73f6a_9-2
-docker tag jenkins/inbound-agent:3206.vb_15dcf73f6a_9-2 registry.cn-hangzhou.aliyuncs.com/macroldj/inbound-agent:3206.vb_15dcf73f6a_9-2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/inbound-agent:3206.vb_15dcf73f6a_9-2
+#docker pull jenkins/inbound-agent:3206.vb_15dcf73f6a_9-2
+#docker tag jenkins/inbound-agent:3206.vb_15dcf73f6a_9-2 registry.cn-hangzhou.aliyuncs.com/macroldj/inbound-agent:3206.vb_15dcf73f6a_9-2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/inbound-agent:3206.vb_15dcf73f6a_9-2
 
-docker pull centos:8
-docker tag centos:8 registry.cn-hangzhou.aliyuncs.com/macroldj/centos:8
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/centos:8
+#docker pull centos:8
+#docker tag centos:8 registry.cn-hangzhou.aliyuncs.com/macroldj/centos:8
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/centos:8
 
-docker pull centos:7
-docker tag centos:7 registry.cn-hangzhou.aliyuncs.com/macroldj/centos:7
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/centos:7
+#docker pull centos:7
+#docker tag centos:7 registry.cn-hangzhou.aliyuncs.com/macroldj/centos:7
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/centos:7
