@@ -467,6 +467,6 @@ docker pull docker:20.10.17
 docker tag docker:20.10.17 registry.cn-hangzhou.aliyuncs.com/macroldj/docker:20.10.17
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/docker:20.10.17
 
-docker pull inbound-agent:3206.vb_15dcf73f6a_9-2
-docker tag inbound-agent:3206.vb_15dcf73f6a_9-2 registry.cn-hangzhou.aliyuncs.com/macroldj/inbound-agent:3206.vb_15dcf73f6a_9-2
+docker pull jenkins/inbound-agent:3206.vb_15dcf73f6a_9-2
+docker tag jenkins/inbound-agent:3206.vb_15dcf73f6a_9-2 registry.cn-hangzhou.aliyuncs.com/macroldj/inbound-agent:3206.vb_15dcf73f6a_9-2
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/inbound-agent:3206.vb_15dcf73f6a_9-2
