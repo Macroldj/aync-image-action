@@ -479,6 +479,14 @@ done
 #docker tag centos:7 registry.cn-hangzhou.aliyuncs.com/macroldj/centos:7
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/centos:7
 
-docker pull openjdk:17
-docker tag openjdk:17 registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:17
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:17
+#docker pull openjdk:17
+#docker tag openjdk:17 registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:17
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:17
+
+docker pull mysql:5.7.16
+docker tag mysql:5.7.16 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:5.7.16
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:5.7.16
+
+docker pull redis:5.0.4
+docker tag redis:5.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
