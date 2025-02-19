@@ -499,6 +499,6 @@ done
 #docker tag python:3.10.16-slim-bullseye registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.10.16-slim-bullseye
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.10.16-slim-bullseye
 
-docker pull mongo:4.4.6
-docker tag mongo:4.4.6 registry.cn-hangzhou.aliyuncs.com/macroldj/mongo:4.4.6
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongo:4.4.6
+#docker pull mongo:4.4.6
+#docker tag mongo:4.4.6 registry.cn-hangzhou.aliyuncs.com/macroldj/mongo:4.4.6
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongo:4.4.6
