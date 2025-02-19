@@ -495,6 +495,10 @@ done
 #docker tag postgres:14.5-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:14.5-alpine
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:14.5-alpine
 
-docker pull python:3.10.16-slim-bullseye
-docker tag python:3.10.16-slim-bullseye registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.10.16-slim-bullseye
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.10.16-slim-bullseye
+#docker pull python:3.10.16-slim-bullseye
+#docker tag python:3.10.16-slim-bullseye registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.10.16-slim-bullseye
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.10.16-slim-bullseye
+
+docker pull mongo:4.4.6
+docker tag mongo:4.4.6 registry.cn-hangzhou.aliyuncs.com/macroldj/mongo:4.4.6
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongo:4.4.6
