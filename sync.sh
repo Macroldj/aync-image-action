@@ -503,6 +503,14 @@ done
 #docker tag mongo:4.4.6 registry.cn-hangzhou.aliyuncs.com/macroldj/mongo:4.4.6
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongo:4.4.6
 
-docker pull node:20.18.3-bullseye-slim
-docker tag node:20.18.3-bullseye-slim registry.cn-hangzhou.aliyuncs.com/macroldj/node:20.18.3-bullseye-slim
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:20.18.3-bullseye-slim
+#docker pull node:20.18.3-bullseye-slim
+#docker tag node:20.18.3-bullseye-slim registry.cn-hangzhou.aliyuncs.com/macroldj/node:20.18.3-bullseye-slim
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:20.18.3-bullseye-slim
+
+docker pull elasticsearch:7.17.28
+docker tag elasticsearch:7.17.28 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.28
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.28
+
+docker pull kibana:7.17.28
+docker tag kibana:7.17.28 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.28
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.28
