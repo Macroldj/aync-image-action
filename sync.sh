@@ -515,6 +515,10 @@ done
 #docker tag kibana:7.17.28 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.28
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:7.17.28
 
-docker pull python:3.9.21-slim-bullseye
-docker tag python:3.9.21-slim-bullseye registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.9.21-slim-bullseye
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.9.21-slim-bullseye
+#docker pull python:3.9.21-slim-bullseye
+#docker tag python:3.9.21-slim-bullseye registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.9.21-slim-bullseye
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.9.21-slim-bullseye
+
+docker pull rabbitmq:3.13.7
+docker tag rabbitmq:3.13.7 registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7
