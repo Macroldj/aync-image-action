@@ -523,6 +523,10 @@ done
 #docker tag rabbitmq:3.13.7 registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7
 
-docker pull otel/opentelemetry-collector-contrib:0.120.0
-docker tag otel/opentelemetry-collector-contrib:0.120.0 registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector-contrib:0.120.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector-contrib:0.120.0
+#docker pull otel/opentelemetry-collector-contrib:0.120.0
+#docker tag otel/opentelemetry-collector-contrib:0.120.0 registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector-contrib:0.120.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector-contrib:0.120.0
+
+docker pull jaegertracing/all-in-one:1.66.0
+docker tag jaegertracing/all-in-one:1.66.0 registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:1.66.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:1.66.0
