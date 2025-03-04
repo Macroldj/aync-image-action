@@ -530,3 +530,5 @@ done
 docker pull jaegertracing/all-in-one:1.66.0
 docker tag jaegertracing/all-in-one:1.66.0 registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:1.66.0
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:1.66.0
+
+
