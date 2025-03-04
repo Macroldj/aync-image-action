@@ -519,6 +519,10 @@ done
 #docker tag python:3.9.21-slim-bullseye registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.9.21-slim-bullseye
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/python:3.9.21-slim-bullseye
 
-docker pull rabbitmq:3.13.7
-docker tag rabbitmq:3.13.7 registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7
+#docker pull rabbitmq:3.13.7
+#docker tag rabbitmq:3.13.7 registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7
+
+docker pull otel/opentelemetry-collector-contrib:0.120.0
+docker tag otel/opentelemetry-collector-contrib:0.120.0 registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector-contrib:0.120.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector-contrib:0.120.0
