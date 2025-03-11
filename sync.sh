@@ -527,8 +527,10 @@ done
 #docker tag otel/opentelemetry-collector-contrib:0.120.0 registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector-contrib:0.120.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector-contrib:0.120.0
 
-docker pull jaegertracing/all-in-one:1.66.0
-docker tag jaegertracing/all-in-one:1.66.0 registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:1.66.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:1.66.0
+#docker pull jaegertracing/all-in-one:1.66.0
+#docker tag jaegertracing/all-in-one:1.66.0 registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:1.66.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:1.66.0
 
-
+docker pull conda/miniconda3-centos7:latest
+docker tag conda/miniconda3-centos7:latest registry.cn-hangzhou.aliyuncs.com/macroldj/conda-miniconda3-centos7:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/conda-miniconda3-centos7:latest
