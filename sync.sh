@@ -531,6 +531,10 @@ done
 #docker tag jaegertracing/all-in-one:1.66.0 registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:1.66.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jaeger:1.66.0
 
-docker pull conda/miniconda3-centos7:latest
-docker tag conda/miniconda3-centos7:latest registry.cn-hangzhou.aliyuncs.com/macroldj/conda-miniconda3-centos7:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/conda-miniconda3-centos7:latest
+#docker pull conda/miniconda3-centos7:latest
+#docker tag conda/miniconda3-centos7:latest registry.cn-hangzhou.aliyuncs.com/macroldj/conda-miniconda3-centos7:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/conda-miniconda3-centos7:latest
+
+docker pull maven:3.9.9-amazoncorretto-21
+docker tag maven:3.9.9-amazoncorretto-21 registry.cn-hangzhou.aliyuncs.com/macroldj/maven:3.9.9-amazoncorretto-21
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/maven:3.9.9-amazoncorretto-21
