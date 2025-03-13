@@ -535,6 +535,11 @@ done
 #docker tag conda/miniconda3-centos7:latest registry.cn-hangzhou.aliyuncs.com/macroldj/conda-miniconda3-centos7:latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/conda-miniconda3-centos7:latest
 
-docker pull maven:3.9.9-amazoncorretto-21
-docker tag maven:3.9.9-amazoncorretto-21 registry.cn-hangzhou.aliyuncs.com/macroldj/maven:3.9.9-amazoncorretto-21
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/maven:3.9.9-amazoncorretto-21
+#docker pull maven:3.9.9-amazoncorretto-21
+#docker tag maven:3.9.9-amazoncorretto-21 registry.cn-hangzhou.aliyuncs.com/macroldj/maven:3.9.9-amazoncorretto-21
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/maven:3.9.9-amazoncorretto-21
+
+
+docker pull openjdk:21
+docker tag openjdk:21 registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:21
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:21
