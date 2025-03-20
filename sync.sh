@@ -540,6 +540,14 @@ done
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/maven:3.9.9-amazoncorretto-21
 
 
-docker pull openjdk:21
-docker tag openjdk:21 registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:21
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:21
+#docker pull openjdk:21
+#docker tag openjdk:21 registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:21
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:21
+
+#docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:21
+#docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:21 192.168.9.37/devops/openjdk:21
+#docker push 192.168.9.37/devops/openjdk:21
+
+docker pull grafana/grafana:11.5.2
+docker tag grafana/grafana:11.5.2 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:11.5.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:11.5.2
