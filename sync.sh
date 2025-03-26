@@ -552,6 +552,10 @@ done
 #docker tag grafana/grafana:11.5.2 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:11.5.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:11.5.2
 
-docker pull redis:5.0.4
-docker tag redis:5.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
+#docker pull redis:5.0.4
+#docker tag redis:5.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
+
+docker pull node:16.16.0
+docker tag node:16.16.0 registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0
