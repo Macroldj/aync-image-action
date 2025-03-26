@@ -563,3 +563,7 @@ done
 #docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0
 #docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0 192.168.9.37/devops/node:16.16.0
 #docker push 192.168.9.37/devops/node:16.16.0
+
+docker pull bitnami/etcd:3.5.20
+docker tag bitnami/etcd:3.5.20 registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:3.5.20
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:3.5.20
