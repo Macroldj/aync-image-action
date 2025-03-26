@@ -556,6 +556,10 @@ done
 #docker tag redis:5.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
 
-docker pull node:16.16.0
-docker tag node:16.16.0 registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0
+#docker pull node:16.16.0
+#docker tag node:16.16.0 registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0
+
+#docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0
+#docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0 192.168.9.37/devops/node:16.16.0
+#docker push 192.168.9.37/devops/node:16.16.0
