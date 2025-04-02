@@ -564,6 +564,13 @@ done
 #docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/node:16.16.0 192.168.9.37/devops/node:16.16.0
 #docker push 192.168.9.37/devops/node:16.16.0
 
-docker pull bitnami/etcd:3.5.20
-docker tag bitnami/etcd:3.5.20 registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:3.5.20
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:3.5.20
+#docker pull bitnami/etcd:3.5.20
+#docker tag bitnami/etcd:3.5.20 registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:3.5.20
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:3.5.20
+
+#docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:3.5.20 192.168.7.37/devops/etcd:3.5.20
+#docker push 192.168.7.37/devops/etcd:3.5.20
+
+docker pull golang:1.23.1
+docker tag golang:1.23.1 registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.23.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.23.1
