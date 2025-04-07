@@ -571,6 +571,10 @@ done
 #docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:3.5.20 192.168.7.37/devops/etcd:3.5.20
 #docker push 192.168.7.37/devops/etcd:3.5.20
 
-docker pull golang:1.23.1
-docker tag golang:1.23.1 registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.23.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.23.1
+#docker pull golang:1.23.1
+#docker tag golang:1.23.1 registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.23.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/golang:1.23.1
+
+docker pull nvidia/cuda:11.8.0-base-ubuntu20.04
+docker tag nvidia/cuda:11.8.0-base-ubuntu20.04 registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:11.8.0-base-ubuntu20.04
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:11.8.0-base-ubuntu20.04
