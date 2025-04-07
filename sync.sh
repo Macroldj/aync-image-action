@@ -579,6 +579,6 @@ done
 #docker tag nvidia/cuda:11.8.0-base-ubuntu20.04 registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:11.8.0-base-ubuntu20.04
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:11.8.0-base-ubuntu20.04
 
-docker pull docker pull ghcr.io/huggingface/text-generation-inference:latest
-docker tag ghcr.io/huggingface/text-generation-inference:latest registry.cn-hangzhou.aliyuncs.com/macroldj/text-generation-inference:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/text-generation-inference:latest
+docker pull ollama/ollama:0.6.5
+docker tag ollama/ollama:0.6.5 registry.cn-hangzhou.aliyuncs.com/macroldj/ollama:0.6.5
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ollama:0.6.5
