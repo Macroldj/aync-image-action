@@ -579,6 +579,10 @@ done
 #docker tag nvidia/cuda:11.8.0-base-ubuntu20.04 registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:11.8.0-base-ubuntu20.04
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:11.8.0-base-ubuntu20.04
 
-docker pull ollama/ollama:0.6.5
-docker tag ollama/ollama:0.6.5 registry.cn-hangzhou.aliyuncs.com/macroldj/ollama:0.6.5
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ollama:0.6.5
+#docker pull ollama/ollama:0.6.5
+#docker tag ollama/ollama:0.6.5 registry.cn-hangzhou.aliyuncs.com/macroldj/ollama:0.6.5
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ollama:0.6.5
+
+docker pull ghcr.io/open-webui/open-webui:main
+docker tag ghcr.io/open-webui/open-webui:main registry.cn-hangzhou.aliyuncs.com/macroldj/open-webui:main
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/open-webui:main
