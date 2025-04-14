@@ -593,4 +593,4 @@ done
 
 docker pull redis:5.0.4
 docker tag redis:5.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
-docker psuh registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
