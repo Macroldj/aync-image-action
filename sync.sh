@@ -587,6 +587,10 @@ done
 #docker tag ghcr.io/open-webui/open-webui:main registry.cn-hangzhou.aliyuncs.com/macroldj/open-webui:main
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/open-webui:main
 
-docker pull node:16.16.0-buster-slim
-docker tag node:16.16.0-buster-slim registry.cn-hangzhou.aliyuncs.com/macroldj/node:v16.16.0-buster-slim
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:v16.16.0-buster-slim
+#docker pull node:16.16.0-buster-slim
+#docker tag node:16.16.0-buster-slim registry.cn-hangzhou.aliyuncs.com/macroldj/node:v16.16.0-buster-slim
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:v16.16.0-buster-slim
+
+docker pull redis:5.0.4
+docker tag redis:5.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
+docker psuh registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
