@@ -591,15 +591,19 @@ done
 #docker tag node:16.16.0-buster-slim registry.cn-hangzhou.aliyuncs.com/macroldj/node:v16.16.0-buster-slim
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:v16.16.0-buster-slim
 
-docker pull redis:5.0.4
-docker tag redis:5.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
+#docker pull redis:5.0.4
+#docker tag redis:5.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
 
 
 #docker pull registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:5.7.16
 #docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:5.7.16 192.168.9.37/devops/mysql:5.7.16
 #docker push 192.168.9.37/devops/mysql:5.7.16
 
-docker pull polarismesh/polaris-standalone:v1.17.2
-docker tag polarismesh/polaris-standalone:v1.17.2 registry.cn-hangzhou.aliyuncs.com/macroldj/polaris-standalone:v1.17.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/polaris-standalone:v1.17.2
+#docker pull polarismesh/polaris-standalone:v1.17.2
+#docker tag polarismesh/polaris-standalone:v1.17.2 registry.cn-hangzhou.aliyuncs.com/macroldj/polaris-standalone:v1.17.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/polaris-standalone:v1.17.2
+
+docker pull openproject/openproject:15
+docker tag openproject/openproject:15 registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15
