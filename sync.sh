@@ -604,6 +604,10 @@ done
 #docker tag polarismesh/polaris-standalone:v1.17.2 registry.cn-hangzhou.aliyuncs.com/macroldj/polaris-standalone:v1.17.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/polaris-standalone:v1.17.2
 
-docker pull openproject/openproject:15
-docker tag openproject/openproject:15 registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15
+#docker pull openproject/openproject:15
+#docker tag openproject/openproject:15 registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15
+
+docker pull dockurr/windows:4.34
+docker tag dockurr/windows:4.34 registry.cn-hangzhou.aliyuncs.com/macroldj/windows:4.34
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/windows:4.34

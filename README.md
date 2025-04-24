@@ -27,3 +27,12 @@
 - 添加镜像使用频率分析，智能管理存储空间
 - 支持批量镜像同步任务调度
 - 增加镜像同步状态监控和通知机制
+
+```shell
+docker run -it -p 8088:80 \
+  -e OPENPROJECT_SECRET_KEY_BASE=secret \
+  -e OPENPROJECT_HOST__NAME=100.64.17.126:8088 \
+  -e OPENPROJECT_HTTPS=false \
+  -e OPENPROJECT_DEFAULT__LANGUAGE=en \
+  registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15
+```
