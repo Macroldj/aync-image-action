@@ -612,6 +612,10 @@ done
 #docker tag dockurr/windows:4.34 registry.cn-hangzhou.aliyuncs.com/macroldj/windows:4.34
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/windows:4.34
 
-docker pull debian:12.10
-docker tag debian:12.10 registry.cn-hangzhou.aliyuncs.com/macroldj/debian:12.10
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/debian:12.10
+#docker pull debian:12.10
+#docker tag debian:12.10 registry.cn-hangzhou.aliyuncs.com/macroldj/debian:12.10
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/debian:12.10
+
+docker pull kalilinux/kali-rolling
+docker tag kalilinux/kali-rolling registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:20250607
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:20250607
