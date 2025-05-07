@@ -624,11 +624,14 @@ done
 #docker tag minio/minio:RELEASE.2025-04-22T22-12-26Z registry.cn-hangzhou.aliyuncs.com/macroldj/minio:RELEASE.2025-04-22T22-12-26Z
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/minio:RELEASE.2025-04-22T22-12-26Z
 
-docker pull ubuntu/kafka:3.6-22.04_edge
-docker tag ubuntu/kafka:3.6-22.04_edge registry.cn-hangzhou.aliyuncs.com/macroldj/kafka:3.6-22.04_edge
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kafka:3.6-22.04_edge
+#docker pull ubuntu/kafka:3.6-22.04_edge
+#docker tag ubuntu/kafka:3.6-22.04_edge registry.cn-hangzhou.aliyuncs.com/macroldj/kafka:3.6-22.04_edge
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kafka:3.6-22.04_edge
 
-docker pull ubuntu/zookeeper:3.8-22.04_edge
-docker tag ubuntu/zookeeper:3.8-22.04_edge registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.8-22.04_edge
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.8-22.04_edge
+#docker pull ubuntu/zookeeper:3.8-22.04_edge
+#docker tag ubuntu/zookeeper:3.8-22.04_edge registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.8-22.04_edge
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.8-22.04_edge
 
+docker pull kafkamanager/kafka-manager:3.0.0.4
+docker tag kafkamanager/kafka-manager:3.0.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager:3.0.0.4
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager:3.0.0.4
