@@ -640,6 +640,10 @@ done
 #docker tag rabbitmq:3.13.7-management registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7-management
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7-management
 
-docker pull haproxy:3.1.7
-docker tag haproxy:3.1.7 registry.cn-hangzhou.aliyuncs.com/macroldj/haproxy:3.1.7
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/haproxy:3.1.7
+#docker pull haproxy:3.1.7
+#docker tag haproxy:3.1.7 registry.cn-hangzhou.aliyuncs.com/macroldj/haproxy:3.1.7
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/haproxy:3.1.7
+
+docker pull redis:7.2
+docker tag redis:7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2
