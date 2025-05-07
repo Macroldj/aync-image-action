@@ -632,6 +632,10 @@ done
 #docker tag ubuntu/zookeeper:3.8-22.04_edge registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.8-22.04_edge
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.8-22.04_edge
 
-docker pull kafkamanager/kafka-manager:3.0.0.4
-docker tag kafkamanager/kafka-manager:3.0.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager:3.0.0.4
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager:3.0.0.4
+#docker pull kafkamanager/kafka-manager:3.0.0.4
+#docker tag kafkamanager/kafka-manager:3.0.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager:3.0.0.4
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager:3.0.0.4
+
+docker pull rabbitmq:3.13.7-management
+docker tag rabbitmq:3.13.7-management registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7-management
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7-management
