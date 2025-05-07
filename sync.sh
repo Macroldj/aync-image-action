@@ -608,6 +608,10 @@ done
 #docker tag openproject/openproject:15 registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15
 
-docker pull dockurr/windows:4.34
-docker tag dockurr/windows:4.34 registry.cn-hangzhou.aliyuncs.com/macroldj/windows:4.34
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/windows:4.34
+#docker pull dockurr/windows:4.34
+#docker tag dockurr/windows:4.34 registry.cn-hangzhou.aliyuncs.com/macroldj/windows:4.34
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/windows:4.34
+
+docker pull debian:12.10
+docker tag debian:12.10 registry.cn-hangzhou.aliyuncs.com/macroldj/debian:12.10
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/debian:12.10
