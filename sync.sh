@@ -616,6 +616,10 @@ done
 #docker tag debian:12.10 registry.cn-hangzhou.aliyuncs.com/macroldj/debian:12.10
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/debian:12.10
 
-docker pull kalilinux/kali-rolling
-docker tag kalilinux/kali-rolling registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:20250607
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:20250607
+#docker pull kalilinux/kali-rolling
+#docker tag kalilinux/kali-rolling registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:20250607
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kali-rolling:20250607
+
+docker pull minio/minio:RELEASE.2025-04-22T22-12-26Z
+docker tag minio/minio:RELEASE.2025-04-22T22-12-26Z registry.cn-hangzhou.aliyuncs.com/macroldj/minio:RELEASE.2025-04-22T22-12-26Z
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/minio:RELEASE.2025-04-22T22-12-26Z
