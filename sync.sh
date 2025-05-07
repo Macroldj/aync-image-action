@@ -636,6 +636,10 @@ done
 #docker tag kafkamanager/kafka-manager:3.0.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager:3.0.0.4
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kafka-manager:3.0.0.4
 
-docker pull rabbitmq:3.13.7-management
-docker tag rabbitmq:3.13.7-management registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7-management
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7-management
+#docker pull rabbitmq:3.13.7-management
+#docker tag rabbitmq:3.13.7-management registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7-management
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rabbitmq:3.13.7-management
+
+docker pull haproxy:3.1.7
+docker tag haproxy:3.1.7 registry.cn-hangzhou.aliyuncs.com/macroldj/haproxy:3.1.7
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/haproxy:3.1.7
