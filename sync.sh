@@ -644,6 +644,14 @@ done
 #docker tag haproxy:3.1.7 registry.cn-hangzhou.aliyuncs.com/macroldj/haproxy:3.1.7
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/haproxy:3.1.7
 
-docker pull redis:7.2
-docker tag redis:7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2
+#docker pull redis:7.2
+#docker tag redis:7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2
+
+docker pull elasticsearch:7.17.18
+docker tag elasticsearch:7.17.18 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.18
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.18
+
+docker pull elasticsearch:8.11.3
+docker tag elasticsearch:8.11.3 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.11.3
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.11.3
