@@ -661,14 +661,30 @@ done
 #docker tag mongodb/mongodb-community-server:7.0.7-ubuntu2204 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:7.0.7-ubuntu2204
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:7.0.7-ubuntu2204
 
-docker pull mysql:8.4.5
-docker tag mysql:8.4.5 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:8.4.5
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:8.4.5
+#docker pull mysql:8.4.5
+#docker tag mysql:8.4.5 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:8.4.5
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:8.4.5
 
-docker pull mysql:9.3.0
-docker tag mysql:9.3.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:9.3.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:9.3.0
+#docker pull mysql:9.3.0
+#docker tag mysql:9.3.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:9.3.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:9.3.0
 
-docker pull mysql:5.7.42
-docker tag mysql:5.7.42 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:5.7.42
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:5.7.42
+#docker pull mysql:5.7.42
+#docker tag mysql:5.7.42 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:5.7.42
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:5.7.42
+
+docker pull postgres:14.17
+docker tag postgres:14.17 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:14.17
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:14.17
+
+docker pull postgres:15.12
+docker tag postgres:15.12 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:15.12
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:15.12
+
+docker pull postgres:16.08
+docker tag postgres:16.08 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:16.08
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:16.08
+
+docker pull postgres:17.04
+docker tag postgres:17.04 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:17.04
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:17.04
