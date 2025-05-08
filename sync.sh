@@ -701,6 +701,10 @@ done
 #docker tag proxysql/proxysql:2.7.3 registry.cn-hangzhou.aliyuncs.com/macroldj/proxysql:2.7.3
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/proxysql:2.7.3
 
-docker pull mysql/mysql-cluster:8.0.32
-docker tag mysql/mysql-cluster:8.0.32 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql-cluster:8.0.32
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql-cluster:8.0.32
+#docker pull mysql/mysql-cluster:8.0.32
+#docker tag mysql/mysql-cluster:8.0.32 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql-cluster:8.0.32
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql-cluster:8.0.32
+
+docker pull clickhouse/clickhouse-server:25.4
+docker tag clickhouse/clickhouse-server:25.4 registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:25.4
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:25.4
