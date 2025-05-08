@@ -673,17 +673,17 @@ done
 #docker tag mysql:5.7.42 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:5.7.42
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:5.7.42
 
-docker pull postgres:14.17
-docker tag postgres:14.17 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:14.17
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:14.17
+#docker pull postgres:14.17
+#docker tag postgres:14.17 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:14.17
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:14.17
 
-docker pull postgres:15.12
-docker tag postgres:15.12 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:15.12
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:15.12
+#docker pull postgres:15.12
+#docker tag postgres:15.12 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:15.12
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:15.12
 
-docker pull postgres:16.8
-docker tag postgres:16.8 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:16.8
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:16.8
+#docker pull postgres:16.8
+#docker tag postgres:16.8 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:16.8
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:16.8
 
 docker pull postgres:17.4
 docker tag postgres:17.4 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:17.4
