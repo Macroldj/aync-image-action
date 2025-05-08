@@ -705,6 +705,10 @@ done
 #docker tag mysql/mysql-cluster:8.0.32 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql-cluster:8.0.32
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql-cluster:8.0.32
 
-docker pull clickhouse/clickhouse-server:25.4
-docker tag clickhouse/clickhouse-server:25.4 registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:25.4
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:25.4
+#docker pull clickhouse/clickhouse-server:25.4
+#docker tag clickhouse/clickhouse-server:25.4 registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:25.4
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:25.4
+
+docker pull zookeeper:3.7
+docker tag zookeeper:3.7 registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.7
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.7
