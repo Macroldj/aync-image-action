@@ -657,6 +657,6 @@ done
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.11.3
 
 
-docker pull mongodb/mongodb-community-server:8.0.3-ubuntu2204
-docker tag mongodb/mongodb-community-server:8.0.3-ubuntu2204 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:8.0.3-ubuntu2204
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:8.0.3-ubuntu2204
+docker pull mongodb/mongodb-community-server:7.0.7-ubuntu2204
+docker tag mongodb/mongodb-community-server:7.0.7-ubuntu2204 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:7.0.7-ubuntu2204
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:7.0.7-ubuntu2204
