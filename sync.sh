@@ -689,10 +689,14 @@ done
 #docker tag postgres:17.4 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:17.4
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:17.4
 
-docker pull redis:7.2.8
-docker tag redis:7.2.8 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2.8
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2.8
+#docker pull redis:7.2.8
+#docker tag redis:7.2.8 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2.8
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2.8
 
-docker pull redis:6.2.18
-docker tag redis:6.2.18 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:6.2.18
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:6.2.18
+#docker pull redis:6.2.18
+#docker tag redis:6.2.18 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:6.2.18
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:6.2.18
+
+docker pull proxysql/proxysql:2.7.3
+docker tag proxysql/proxysql:2.7.3 registry.cn-hangzhou.aliyuncs.com/macroldj/proxysql:2.7.3
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/proxysql:2.7.3
