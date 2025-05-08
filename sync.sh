@@ -681,9 +681,9 @@ docker pull postgres:15.12
 docker tag postgres:15.12 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:15.12
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:15.12
 
-docker pull postgres:16.08
-docker tag postgres:16.08 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:16.08
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:16.08
+docker pull postgres:16.8
+docker tag postgres:16.8 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:16.8
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:16.8
 
 docker pull postgres:17.04
 docker tag postgres:17.04 registry.cn-hangzhou.aliyuncs.com/macroldj/postgres:17.04
