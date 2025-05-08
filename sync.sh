@@ -697,6 +697,10 @@ done
 #docker tag redis:6.2.18 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:6.2.18
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:6.2.18
 
-docker pull proxysql/proxysql:2.7.3
-docker tag proxysql/proxysql:2.7.3 registry.cn-hangzhou.aliyuncs.com/macroldj/proxysql:2.7.3
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/proxysql:2.7.3
+#docker pull proxysql/proxysql:2.7.3
+#docker tag proxysql/proxysql:2.7.3 registry.cn-hangzhou.aliyuncs.com/macroldj/proxysql:2.7.3
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/proxysql:2.7.3
+
+docker pull mysql/mysql-cluster:8.0.32
+docker tag mysql/mysql-cluster:8.0.32 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql-cluster:8.0.32
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql-cluster:8.0.32
