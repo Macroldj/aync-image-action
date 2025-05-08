@@ -648,10 +648,15 @@ done
 #docker tag redis:7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2
 
-docker pull elasticsearch:7.17.18
-docker tag elasticsearch:7.17.18 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.18
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.18
+#docker pull elasticsearch:7.17.18
+#docker tag elasticsearch:7.17.18 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.18
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:7.17.18
 
-docker pull elasticsearch:8.11.3
-docker tag elasticsearch:8.11.3 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.11.3
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.11.3
+#docker pull elasticsearch:8.11.3
+#docker tag elasticsearch:8.11.3 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.11.3
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.11.3
+
+
+docker pull mongodb/mongodb-community-server:8.0.3-ubuntu2204
+docker tag mongodb/mongodb-community-server:8.0.3-ubuntu2204 registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:8.0.3-ubuntu2204
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mongodb-community-server:8.0.3-ubuntu2204
