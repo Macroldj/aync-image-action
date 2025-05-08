@@ -709,6 +709,10 @@ done
 #docker tag clickhouse/clickhouse-server:25.4 registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:25.4
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/clickhouse-server:25.4
 
-docker pull zookeeper:3.7
-docker tag zookeeper:3.7 registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.7
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.7
+#docker pull zookeeper:3.7
+#docker tag zookeeper:3.7 registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.7
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.7
+
+docker pull quay.io/coreos/etcd:v3.5.13
+docker tag quay.io/coreos/etcd:v3.5.13 registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:v3.5.13
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:v3.5.13
