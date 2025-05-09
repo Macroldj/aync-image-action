@@ -713,6 +713,11 @@ done
 #docker tag zookeeper:3.7 registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.7
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zookeeper:3.7
 
-docker pull quay.io/coreos/etcd:v3.5.13
-docker tag quay.io/coreos/etcd:v3.5.13 registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:v3.5.13
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:v3.5.13
+#docker pull quay.io/coreos/etcd:v3.5.13
+#docker tag quay.io/coreos/etcd:v3.5.13 registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:v3.5.13
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/etcd:v3.5.13
+
+docker pull dockurr/dnsmasq:2.91
+docker tag dockurr/dnsmasq:2.91 registry.cn-hangzhou.aliyuncs.com/macroldj/dnsmasq:2.91
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/dnsmasq:2.91
+
