@@ -737,3 +737,11 @@ docker pull mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
 docker tag mirrored-kube-state-metrics-kube-state-metrics:v2.10.1 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
 
+
+docker pull rancher/mirrored-grafana-grafana:10.4.9
+docker tag rancher/mirrored-grafana-grafana:10.4.9 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-grafana:10.4.9
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-grafana:10.4.9
+
+docker pull rancher/mirrored-library-nginx:1.24.0-alpine
+docker tag rancher/mirrored-library-nginx:1.24.0-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-nginx:1.24.0-alpine
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-nginx:1.24.0-alpine
