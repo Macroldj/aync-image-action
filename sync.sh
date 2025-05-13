@@ -725,6 +725,10 @@ done
 #docker tag nvcr.io/nvidia/k8s-device-plugin:v0.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/k8s-device-plugin:v0.14.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/k8s-device-plugin:v0.14.0
 
-docker pull registry.k8s.io/metrics-server/metrics-server:v0.7.2
-docker tag registry.k8s.io/metrics-server/metrics-server:v0.7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/metrics-server:v0.7.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/metrics-server:v0.7.2
+#docker pull registry.k8s.io/metrics-server/metrics-server:v0.7.2
+#docker tag registry.k8s.io/metrics-server/metrics-server:v0.7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/metrics-server:v0.7.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/metrics-server:v0.7.2
+
+docker pull rancher/mirrored-library-busybox:1.31.1
+docker tag rancher/mirrored-library-busybox:1.31.1 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-busybox:1.31.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-busybox:1.31.1
