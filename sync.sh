@@ -721,6 +721,10 @@ done
 #docker tag dockurr/dnsmasq:2.91 registry.cn-hangzhou.aliyuncs.com/macroldj/dnsmasq:2.91
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/dnsmasq:2.91
 
-docker pull nvcr.io/nvidia/k8s-device-plugin:v0.14.0
-docker tag nvcr.io/nvidia/k8s-device-plugin:v0.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/k8s-device-plugin:v0.14.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/k8s-device-plugin:v0.14.0
+#docker pull nvcr.io/nvidia/k8s-device-plugin:v0.14.0
+#docker tag nvcr.io/nvidia/k8s-device-plugin:v0.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/k8s-device-plugin:v0.14.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/k8s-device-plugin:v0.14.0
+
+docker pull registry.k8s.io/metrics-server/metrics-server:v0.7.2
+docker tag registry.k8s.io/metrics-server/metrics-server:v0.7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/metrics-server:v0.7.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/metrics-server:v0.7.2
