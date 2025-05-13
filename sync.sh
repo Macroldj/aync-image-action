@@ -762,6 +762,10 @@ done
 #docker tag rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0
 
-docker pull openkruise/kruise-manager:v1.8.0
-docker tag openkruise/kruise-manager:v1.8.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.0
+#docker pull openkruise/kruise-manager:v1.8.0
+#docker tag openkruise/kruise-manager:v1.8.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.0
+
+docker pull openkruise/guestbook:v1
+docker tag openkruise/guestbook:v1 registry.cn-hangzhou.aliyuncs.com/macroldj/guestbook:v1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/guestbook:v1
