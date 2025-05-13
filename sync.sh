@@ -758,6 +758,10 @@ done
 #docker tag rancher/mirrored-prometheus-node-exporter:v1.7.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-node-exporter:v1.7.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-node-exporter:v1.7.0
 
-docker pull rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0
-docker tag rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0
+#docker pull rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0
+#docker tag rancher/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-prometheus-operator-prometheus-config-reloader:v0.72.0
+
+docker pull openkruise/kruise-manager:v1.8.0
+docker tag openkruise/kruise-manager:v1.8.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.0
