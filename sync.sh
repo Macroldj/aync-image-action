@@ -729,6 +729,11 @@ done
 #docker tag registry.k8s.io/metrics-server/metrics-server:v0.7.2 registry.cn-hangzhou.aliyuncs.com/macroldj/metrics-server:v0.7.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/metrics-server:v0.7.2
 
-docker pull rancher/mirrored-library-busybox:1.31.1
-docker tag rancher/mirrored-library-busybox:1.31.1 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-busybox:1.31.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-busybox:1.31.1
+#docker pull rancher/mirrored-library-busybox:1.31.1
+#docker tag rancher/mirrored-library-busybox:1.31.1 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-busybox:1.31.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-busybox:1.31.1
+
+docker pull mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
+docker tag mirrored-kube-state-metrics-kube-state-metrics:v2.10.1 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
+
