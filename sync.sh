@@ -774,6 +774,10 @@ done
 #docker tag openkruise/guestbook:v2 registry.cn-hangzhou.aliyuncs.com/macroldj/guestbook:v2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/guestbook:v2
 
-docker pull ghcr.io/ot-container-kit/redis-operator/redis-operator:v0.20.2
-docker tag ghcr.io/ot-container-kit/redis-operator/redis-operator:v0.20.2 registry.cn-hangzhou.aliyuncs.com/macroldj/redis-operator:v0.20.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis-operator:v0.20.2
+#docker pull ghcr.io/ot-container-kit/redis-operator/redis-operator:v0.20.2
+#docker tag ghcr.io/ot-container-kit/redis-operator/redis-operator:v0.20.2 registry.cn-hangzhou.aliyuncs.com/macroldj/redis-operator:v0.20.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis-operator:v0.20.2
+
+docker pull quay.io/opstree/redis:v7.0.15
+docker tag quay.io/opstree/redis:v7.0.15 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:v7.0.15
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:v7.0.15
