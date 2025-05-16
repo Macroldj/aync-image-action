@@ -778,6 +778,10 @@ done
 #docker tag ghcr.io/ot-container-kit/redis-operator/redis-operator:v0.20.2 registry.cn-hangzhou.aliyuncs.com/macroldj/redis-operator:v0.20.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis-operator:v0.20.2
 
-docker pull quay.io/opstree/redis:v7.0.15
-docker tag quay.io/opstree/redis:v7.0.15 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:v7.0.15
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:v7.0.15
+#docker pull quay.io/opstree/redis:v7.0.15
+#docker tag quay.io/opstree/redis:v7.0.15 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:v7.0.15
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:v7.0.15
+
+docker pull registry.k8s.io/sig-storage/snapshot-controller:v8.2.1
+docker tag registry.k8s.io/sig-storage/snapshot-controller:v8.2.1 registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
