@@ -782,6 +782,22 @@ done
 #docker tag quay.io/opstree/redis:v7.0.15 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:v7.0.15
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:v7.0.15
 
+#docker pull registry.k8s.io/sig-storage/snapshot-controller:v8.2.1
+#docker tag registry.k8s.io/sig-storage/snapshot-controller:v8.2.1 registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
+
 docker pull registry.k8s.io/sig-storage/snapshot-controller:v8.2.1
 docker tag registry.k8s.io/sig-storage/snapshot-controller:v8.2.1 registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
+
+docker pull ghcr.io/kedacore/keda-admission-webhooks:2.17.1
+docker tag ghcr.io/kedacore/keda-admission-webhooks:2.17.1 registry.cn-hangzhou.aliyuncs.com/macroldj/keda-admission-webhooks:2.17.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/keda-admission-webhooks:2.17.1
+
+docker pull ghcr.io/kedacore/keda:2.17.1
+docker tag ghcr.io/kedacore/keda:2.17.1 registry.cn-hangzhou.aliyuncs.com/macroldj/keda:2.17.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/keda:2.17.1
+
+docker pull ghcr.io/kedacore/keda-metrics-apiserver:2.17.1
+docker tag ghcr.io/kedacore/keda-metrics-apiserver:2.17.1 registry.cn-hangzhou.aliyuncs.com/macroldj/keda-metrics-apiserver:2.17.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/keda-metrics-apiserver:2.17.1
