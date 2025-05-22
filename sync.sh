@@ -786,18 +786,22 @@ done
 #docker tag registry.k8s.io/sig-storage/snapshot-controller:v8.2.1 registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
 
-docker pull registry.k8s.io/sig-storage/snapshot-controller:v8.2.1
-docker tag registry.k8s.io/sig-storage/snapshot-controller:v8.2.1 registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
+#docker pull registry.k8s.io/sig-storage/snapshot-controller:v8.2.1
+#docker tag registry.k8s.io/sig-storage/snapshot-controller:v8.2.1 registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/snapshot-controller:v8.2.1
 
-docker pull ghcr.io/kedacore/keda-admission-webhooks:2.16.1
-docker tag ghcr.io/kedacore/keda-admission-webhooks:2.16.1 registry.cn-hangzhou.aliyuncs.com/macroldj/keda-admission-webhooks:2.16.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/keda-admission-webhooks:2.16.1
+#docker pull ghcr.io/kedacore/keda-admission-webhooks:2.16.1
+#docker tag ghcr.io/kedacore/keda-admission-webhooks:2.16.1 registry.cn-hangzhou.aliyuncs.com/macroldj/keda-admission-webhooks:2.16.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/keda-admission-webhooks:2.16.1
 
-docker pull ghcr.io/kedacore/keda:2.16.1
-docker tag ghcr.io/kedacore/keda:2.16.1 registry.cn-hangzhou.aliyuncs.com/macroldj/keda:2.16.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/keda:2.16.1
+#docker pull ghcr.io/kedacore/keda:2.16.1
+#docker tag ghcr.io/kedacore/keda:2.16.1 registry.cn-hangzhou.aliyuncs.com/macroldj/keda:2.16.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/keda:2.16.1
 
-docker pull ghcr.io/kedacore/keda-metrics-apiserver:2.16.1
-docker tag ghcr.io/kedacore/keda-metrics-apiserver:2.16.1 registry.cn-hangzhou.aliyuncs.com/macroldj/keda-metrics-apiserver:2.16.1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/keda-metrics-apiserver:2.16.1
+#docker pull ghcr.io/kedacore/keda-metrics-apiserver:2.16.1
+#docker tag ghcr.io/kedacore/keda-metrics-apiserver:2.16.1 registry.cn-hangzhou.aliyuncs.com/macroldj/keda-metrics-apiserver:2.16.1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/keda-metrics-apiserver:2.16.1
+
+docker pull eipwork/kuboard:latest
+docker tag eipwork/kuboard:latest registry.cn-hangzhou.aliyuncs.com/macroldj/kuboard:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kuboard:latest
