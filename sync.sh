@@ -802,6 +802,10 @@ done
 #docker tag ghcr.io/kedacore/keda-metrics-apiserver:2.16.1 registry.cn-hangzhou.aliyuncs.com/macroldj/keda-metrics-apiserver:2.16.1
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/keda-metrics-apiserver:2.16.1
 
-docker pull eipwork/kuboard:latest
-docker tag eipwork/kuboard:latest registry.cn-hangzhou.aliyuncs.com/macroldj/kuboard:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kuboard:latest
+#docker pull eipwork/kuboard:latest
+#docker tag eipwork/kuboard:latest registry.cn-hangzhou.aliyuncs.com/macroldj/kuboard:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kuboard:latest
+
+docker pull public.ecr.aws/zinclabs/openobserve:latest
+docker tag public.ecr.aws/zinclabs/openobserve:latest registry.cn-hangzhou.aliyuncs.com/macroldj/openobserve:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openobserve:latest
