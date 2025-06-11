@@ -806,6 +806,10 @@ done
 #docker tag eipwork/kuboard:latest registry.cn-hangzhou.aliyuncs.com/macroldj/kuboard:latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kuboard:latest
 
-docker pull public.ecr.aws/zinclabs/openobserve:latest
-docker tag public.ecr.aws/zinclabs/openobserve:latest registry.cn-hangzhou.aliyuncs.com/macroldj/openobserve:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openobserve:latest
+#docker pull public.ecr.aws/zinclabs/openobserve:latest
+#docker tag public.ecr.aws/zinclabs/openobserve:latest registry.cn-hangzhou.aliyuncs.com/macroldj/openobserve:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openobserve:latest
+
+docker pull ghcr.io/coder/coder:latest
+docker tag ghcr.io/coder/coder:latest registry.cn-hangzhou.aliyuncs.com/macroldj/coder:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/coder:latest
