@@ -810,6 +810,10 @@ done
 #docker tag public.ecr.aws/zinclabs/openobserve:latest registry.cn-hangzhou.aliyuncs.com/macroldj/openobserve:latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/openobserve:latest
 
-docker pull ghcr.io/coder/coder:latest
-docker tag ghcr.io/coder/coder:latest registry.cn-hangzhou.aliyuncs.com/macroldj/coder:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/coder:latest
+#docker pull ghcr.io/coder/coder:latest
+#docker tag ghcr.io/coder/coder:latest registry.cn-hangzhou.aliyuncs.com/macroldj/coder:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/coder:latest
+
+docker pull chronograf:1.10
+docker tag chronograf:1.10 registry.cn-hangzhou.aliyuncs.com/macroldj/chronograf:1.10
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/chronograf:1.10
