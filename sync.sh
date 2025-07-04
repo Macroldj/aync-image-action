@@ -814,6 +814,10 @@ done
 #docker tag ghcr.io/coder/coder:latest registry.cn-hangzhou.aliyuncs.com/macroldj/coder:latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/coder:latest
 
-docker pull chronograf:1.10
-docker tag chronograf:1.10 registry.cn-hangzhou.aliyuncs.com/macroldj/chronograf:1.10
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/chronograf:1.10
+#docker pull chronograf:1.10
+#docker tag chronograf:1.10 registry.cn-hangzhou.aliyuncs.com/macroldj/chronograf:1.10
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/chronograf:1.10
+
+docker pull nacos/nacos-server:v3.0.2
+docker tag nacos/nacos-server:v3.0.2 registry.cn-hangzhou.aliyuncs.com/macroldj/nacos-server:v3.0.2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/nacos-server:v3.0.2
