@@ -36,3 +36,5 @@ docker run -it -p 8088:80 \
   -e OPENPROJECT_DEFAULT__LANGUAGE=en \
   registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15
 ```
+
+- 景象
