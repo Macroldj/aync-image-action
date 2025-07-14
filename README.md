@@ -38,3 +38,4 @@ docker run -it -p 8088:80 \
 ```
 
 - 镜像地址：`registry.cn-hangzhou.aliyuncs.com/macroldj/openproject:15`
+- 访问地址：http://
