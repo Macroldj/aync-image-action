@@ -822,6 +822,15 @@ done
 #docker tag nacos/nacos-server:v3.0.2 registry.cn-hangzhou.aliyuncs.com/macroldj/nacos-server:v3.0.2
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/nacos-server:v3.0.2
 
-docker pull apache/rocketmq:5.3.2
-docker tag apache/rocketmq:5.3.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rocketmq:5.3.2
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rocketmq:5.3.2
+#docker pull apache/rocketmq:5.3.2
+#docker tag apache/rocketmq:5.3.2 registry.cn-hangzhou.aliyuncs.com/macroldj/rocketmq:5.3.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rocketmq:5.3.2
+
+
+docker pull prom/prometheus:v3.5.0
+docker tag prom/prometheus:v3.5.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v3.5.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v3.5.0
+
+docker pull grafana/grafana:12.2.0-17195718647-ubuntu
+docker tag grafana/grafana:12.2.0-17195718647-ubuntu registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:12.2.0-17195718647-ubuntu
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:12.2.0-17195718647-ubuntu
