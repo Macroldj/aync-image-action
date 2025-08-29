@@ -834,3 +834,7 @@ docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v3.5.0
 docker pull grafana/grafana:12.2.0-17195718647-ubuntu
 docker tag grafana/grafana:12.2.0-17195718647-ubuntu registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:12.2.0-17195718647-ubuntu
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:12.2.0-17195718647-ubuntu
+
+docker pull prom/node-exporter:v1.9.1
+docker tag prom/node-exporter:v1.9.1 registry.cn-hangzhou.aliyuncs.com/macroldj/node-exporter:v1.9.1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node-exporter:v1.9.1
