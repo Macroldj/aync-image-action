@@ -841,4 +841,4 @@ done
 
 docker pull bitnami/blackbox-exporter:0.27.0
 docker tag bitnami/blackbox-exporter:0.27.0 registry.cn-hangzhou.aliyuncs.com/macroldj/blackbox-exporter:0.27.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/blackbox-export
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/blackbox-export:0.27.0
