@@ -839,6 +839,6 @@ done
 #docker tag prom/node-exporter:v1.9.1 registry.cn-hangzhou.aliyuncs.com/macroldj/node-exporter:v1.9.1
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node-exporter:v1.9.1
 
-docker pull quay.io/prometheus/blackbox-exporterv0.27.0
-docker tag quay.io/prometheus/blackbox-exporterv0.27.0 registry.cn-hangzhou.aliyuncs.com/macroldj/blackbox-exporter:v0.27.0
+docker pull quay.io/prometheus/blackbox-exporter:v0.27.0
+docker tag quay.io/prometheus/blackbox-exporter:v0.27.0 registry.cn-hangzhou.aliyuncs.com/macroldj/blackbox-exporter:v0.27.0
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/blackbox-exporter:v0.27.0
