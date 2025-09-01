@@ -116,9 +116,9 @@ done
 #docker tag docker.io/jaegertracing/all-in-one:1.58 registry.cn-hangzhou.aliyuncs.com/macroldj/all-in-one:1.58
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/all-in-one:1.58
 
-#docker pull docker.io/grafana/grafana:11.0.0
-#docker tag docker.io/grafana/grafana:11.0.0 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:11.0.0
-#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:11.0.0
+#docker pull docker.io/grafana-demo.json/grafana-demo.json:11.0.0
+#docker tag docker.io/grafana-demo.json/grafana-demo.json:11.0.0 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-demo.json:11.0.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-demo.json:11.0.0
 
 #docker pull ghcr.io/prometheus-operator/prometheus-config-reloader:v0.73.2
 #docker tag ghcr.io/prometheus-operator/prometheus-config-reloader:v0.73.2 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus-config-reloader:v0.73.2
@@ -128,8 +128,8 @@ done
 #docker tag prom/prometheus:v2.52.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v2.52.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v2.52.0
 
-#docker pull docker.io/grafana/loki:3.0.0
-#docker tag docker.io/grafana/loki:3.0.0 registry.cn-hangzhou.aliyuncs.com/macroldj/loki:3.0.0
+#docker pull docker.io/grafana-demo.json/loki:3.0.0
+#docker tag docker.io/grafana-demo.json/loki:3.0.0 registry.cn-hangzhou.aliyuncs.com/macroldj/loki:3.0.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/loki:3.0.0
 
 # rancher
@@ -201,9 +201,9 @@ done
 #docker tag rancher/mirrored-library-nginx:1.24.0-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/library-nginx:1.24.0-alpine
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/library-nginx:1.24.0-alpine
 
-#docker pull rancher/mirrored-grafana-grafana:10.3.3
-#docker tag rancher/mirrored-grafana-grafana:10.3.3 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-grafana:10.3.3
-#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-grafana:10.3.3
+#docker pull rancher/mirrored-grafana-demo.json-grafana-demo.json:10.3.3
+#docker tag rancher/mirrored-grafana-demo.json-grafana-demo.json:10.3.3 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-demo.json-grafana-demo.json:10.3.3
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-demo.json-grafana-demo.json:10.3.3
 
 #docker pull rancher/kubectl:v1.29.2
 #docker tag rancher/kubectl:v1.29.2 registry.cn-hangzhou.aliyuncs.com/macroldj/kubectl:v1.29.2
@@ -350,9 +350,9 @@ done
 #docker tag rancher/mirrored-library-nginx:1.24.0-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-nginx:1.24.0-alpine
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-nginx:1.24.0-alpine
 
-#docker pull rancher/mirrored-grafana-grafana:10.4.9
-#docker tag rancher/mirrored-grafana-grafana:10.4.9 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-grafana:10.4.9
-#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-grafana:10.4.9
+#docker pull rancher/mirrored-grafana-demo.json-grafana-demo.json:10.4.9
+#docker tag rancher/mirrored-grafana-demo.json-grafana-demo.json:10.4.9 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-demo.json-grafana-demo.json:10.4.9
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-demo.json-grafana-demo.json:10.4.9
 
 #docker pull gcr.io/distroless/static:nonroot
 #docker tag gcr.io/distroless/static:nonroot registry.cn-hangzhou.aliyuncs.com/macroldj/static:nonroot
@@ -548,9 +548,9 @@ done
 #docker tag registry.cn-hangzhou.aliyuncs.com/macroldj/openjdk:21 192.168.9.37/devops/openjdk:21
 #docker push 192.168.9.37/devops/openjdk:21
 
-#docker pull grafana/grafana:11.5.2
-#docker tag grafana/grafana:11.5.2 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:11.5.2
-#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:11.5.2
+#docker pull grafana-demo.json/grafana-demo.json:11.5.2
+#docker tag grafana-demo.json/grafana-demo.json:11.5.2 registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-demo.json:11.5.2
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-demo.json:11.5.2
 
 #docker pull redis:5.0.4
 #docker tag redis:5.0.4 registry.cn-hangzhou.aliyuncs.com/macroldj/redis:5.0.4
@@ -738,9 +738,9 @@ done
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-kube-state-metrics-kube-state-metrics:v2.10.1
 
 
-#docker pull rancher/mirrored-grafana-grafana:10.4.9
-#docker tag rancher/mirrored-grafana-grafana:10.4.9 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-grafana:10.4.9
-#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-grafana:10.4.9
+#docker pull rancher/mirrored-grafana-demo.json-grafana-demo.json:10.4.9
+#docker tag rancher/mirrored-grafana-demo.json-grafana-demo.json:10.4.9 registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-demo.json-grafana-demo.json:10.4.9
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-grafana-demo.json-grafana-demo.json:10.4.9
 
 #docker pull rancher/mirrored-library-nginx:1.24.0-alpine
 #docker tag rancher/mirrored-library-nginx:1.24.0-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/mirrored-library-nginx:1.24.0-alpine
@@ -831,9 +831,9 @@ done
 #docker tag prom/prometheus:v3.5.0 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v3.5.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:v3.5.0
 
-#docker pull grafana/grafana:12.2.0-17195718647-ubuntu
-#docker tag grafana/grafana:12.2.0-17195718647-ubuntu registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:12.2.0-17195718647-ubuntu
-#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:12.2.0-17195718647-ubuntu
+#docker pull grafana-demo.json/grafana-demo.json:12.2.0-17195718647-ubuntu
+#docker tag grafana-demo.json/grafana-demo.json:12.2.0-17195718647-ubuntu registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-demo.json:12.2.0-17195718647-ubuntu
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana-demo.json:12.2.0-17195718647-ubuntu
 
 #docker pull prom/node-exporter:v1.9.1
 #docker tag prom/node-exporter:v1.9.1 registry.cn-hangzhou.aliyuncs.com/macroldj/node-exporter:v1.9.1

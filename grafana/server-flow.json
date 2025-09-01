@@ -1,0 +1,28 @@
+{
+  "id": 26,
+  "gridPos": {
+    "h": 18,
+    "w": 12,
+    "x": 0,
+    "y": 18
+  },
+  "type": "nodeGraph",
+  "title": "服务依赖图",
+  "datasource": {
+    "type": "testdata",
+    "uid": "QtyuNqASk"
+  },
+  "targets": [
+    {
+      "datasource": {
+        "type": "testdata",
+        "uid": "QtyuNqASk"
+      },
+      "nodes": {
+        "type": "response"
+      },
+      "refId": "A",
+      "scenarioId": "node_graph"
+    }
+  ]
+}

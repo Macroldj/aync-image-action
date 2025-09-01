@@ -1,0 +1,31 @@
+{
+  "id": 28,
+  "gridPos": {
+    "h": 8,
+    "w": 12,
+    "x": 12,
+    "y": 9
+  },
+  "type": "alertlist",
+  "title": "当前告警事件",
+  "datasource": {
+    "type": "datasource",
+    "uid": "grafana"
+  },
+  "options": {
+    "groupMode": "default",
+    "groupBy": [],
+    "maxItems": 20,
+    "sortOrder": 1,
+    "dashboardAlerts": false,
+    "alertName": "",
+    "alertInstanceLabelFilter": "",
+    "stateFilter": {
+      "firing": true,
+      "pending": true,
+      "noData": false,
+      "normal": false,
+      "error": true
+    }
+  }
+}
