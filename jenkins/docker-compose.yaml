@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+    jenkins:
+        image: registry.cn-hangzhou.aliyuncs.com/macroldj/custom-jenkins:2.516.3-3
+        container_name: jenkins
+        restart: on-failure
+        networks:
+            - jenkins
+        environment:
+            - DOCKER_HOST=tcp://docker:2376
+            - DOCKER_CERT_PATH=/certs/client
+            - DOCKER_TLS_VERIFY=1
+        ports:
+            - "8080:8080"
+            - "50000:50000"
+        volumes:
+            - /data/jenkins:/var/jenkins_home
+networks:
+    jenkins:
+        driver: bridge
