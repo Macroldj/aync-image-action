@@ -1,0 +1,171 @@
+version: "3.8"
+services:
+  nginx:
+    image: nginx:1.25.4
+    container_name: grafana-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf
+      - ./nginx/certs:/etc/nginx/certs
+    restart: always
+    depends_on:
+      - grafana_1
+      - grafana_2
+      - grafana_3
+
+  # 新增：Redis 服务（用于共享会话）
+  grafana-redis:
+    image: redis:7-alpine
+    container_name: grafana-redis
+    restart: unless-stopped
+    # 可选：启用密码认证（增强安全性）
+    command: redis-server --requirepass your_redis_password
+    volumes:
+      - grafana-redis-data:/data
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "your_redis_password", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+
+  grafana-db:
+    image: mysql:8.0 # 使用 MySQL 8.0 镜像
+    container_name: grafana-mysql
+    restart: unless-stopped
+    environment:
+      # 使用环境变量自动初始化数据库
+      MYSQL_ROOT_PASSWORD: "YourRootPassword!" # 必须设置 root 密码
+      MYSQL_DATABASE: "grafana" # 自动创建 grafana 数据库
+      MYSQL_USER: "grafana_user" # 自动创建 grafana_user 用户
+      MYSQL_PASSWORD: "YourStrongPassword123!" # 自动设置用户密码
+    volumes:
+      # 持久化 MySQL 数据
+      - grafana-db-data:/var/lib/mysql
+    healthcheck:
+      # 健康检查，确保 MySQL 启动完成后再启动 Grafana
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p$$MYSQL_ROOT_PASSWORD"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # --- 2. 修改: Grafana 服务的配置 ---
+  grafana_1:
+    image: grafana/grafana:12.2
+    restart: unless-stopped
+    environment:
+      # --- 核心修改: 将数据库配置从 postgres 改为 mysql ---
+      GF_DATABASE_TYPE: mysql
+      GF_DATABASE_HOST: grafana-db:3306 # 连接到 MySQL 服务
+      GF_DATABASE_NAME: grafana
+      GF_DATABASE_USER: grafana_user
+      GF_DATABASE_PASSWORD: YourStrongPassword123!
+
+      # 对于 MySQL 8.0，推荐使用 mysql_native_password 认证插件
+      GF_DATABASE_CHARSET: utf8mb4
+      GF_DATABASE_MAX_OPEN_CONNS: 25
+      GF_DATABASE_MAX_IDLE_CONNS: 25
+      GF_DATABASE_CONN_MAX_LIFETIME: 240s
+
+      # --- Redis 会话存储配置 ---
+      GF_SESSION_PROVIDER: redis
+      GF_SESSION_PROVIDER_CONFIG: "addr=grafana-redis:6379,password=your_redis_password,db=0,pool_size=100,key_prefix=grafana_session:"
+      # --- Redis 页面缓存配置（可选） ---
+      GF_CACHE_TYPE: redis
+      GF_CACHE_REDIS_ADDR: grafana-redis:6379
+      GF_CACHE_REDIS_PASSWORD: your_redis_password
+      GF_CACHE_REDIS_DB: 1  # 使用不同的 Redis DB 避免冲突
+      GF_CACHE_REDIS_POOL_SIZE: 100
+      GF_CACHE_REDIS_KEY_PREFIX: "grafana_cache:"
+
+      # 其他配置保持不变
+      GF_SECURITY_ADMIN_PASSWORD: "your_admin_password"
+      GF_PATHS_PLUGINS: /var/lib/grafana-plugins
+    volumes:
+      - grafana-plugins:/var/lib/grafana-plugins
+      - grafana-config:/etc/grafana
+    depends_on:
+      grafana-db:
+        condition: service_healthy # 依赖 MySQL 健康检查通过
+
+  grafana_2:
+    image: grafana/grafana:12.2
+    restart: unless-stopped
+    environment:
+      # --- 核心修改: 将数据库配置从 postgres 改为 mysql ---
+      GF_DATABASE_TYPE: mysql
+      GF_DATABASE_HOST: grafana-db:3306 # 连接到 MySQL 服务
+      GF_DATABASE_NAME: grafana
+      GF_DATABASE_USER: grafana_user
+      GF_DATABASE_PASSWORD: YourStrongPassword123!
+      # 对于 MySQL 8.0，推荐使用 mysql_native_password 认证插件
+      GF_DATABASE_CHARSET: utf8mb4
+      GF_DATABASE_MAX_OPEN_CONNS: 25
+      GF_DATABASE_MAX_IDLE_CONNS: 25
+      GF_DATABASE_CONN_MAX_LIFETIME: 240s
+
+      # --- Redis 会话存储配置 ---
+      GF_SESSION_PROVIDER: redis
+      GF_SESSION_PROVIDER_CONFIG: "addr=grafana-redis:6379,password=your_redis_password,db=0,pool_size=100,key_prefix=grafana_session:"
+      # --- Redis 页面缓存配置（可选） ---
+      GF_CACHE_TYPE: redis
+      GF_CACHE_REDIS_ADDR: grafana-redis:6379
+      GF_CACHE_REDIS_PASSWORD: your_redis_password
+      GF_CACHE_REDIS_DB: 1  # 使用不同的 Redis DB 避免冲突
+      GF_CACHE_REDIS_POOL_SIZE: 100
+      GF_CACHE_REDIS_KEY_PREFIX: "grafana_cache:"
+
+      # 其他配置保持不变
+      GF_SECURITY_ADMIN_PASSWORD: "your_admin_password"
+      GF_PATHS_PLUGINS: /var/lib/grafana-plugins
+    volumes:
+      - grafana-plugins:/var/lib/grafana-plugins
+      - grafana-config:/etc/grafana
+    depends_on:
+      grafana-db:
+        condition: service_healthy # 依赖 MySQL 健康检查通过
+        
+  grafana_3:
+    image: grafana/grafana:12.2
+    restart: unless-stopped
+    environment:
+      # --- 核心修改: 将数据库配置从 postgres 改为 mysql ---
+      GF_DATABASE_TYPE: mysql
+      GF_DATABASE_HOST: grafana-db:3306 # 连接到 MySQL 服务
+      GF_DATABASE_NAME: grafana
+      GF_DATABASE_USER: grafana_user
+      GF_DATABASE_PASSWORD: YourStrongPassword123!
+      # 对于 MySQL 8.0，推荐使用 mysql_native_password 认证插件
+      GF_DATABASE_CHARSET: utf8mb4
+      GF_DATABASE_MAX_OPEN_CONNS: 25
+      GF_DATABASE_MAX_IDLE_CONNS: 25
+      GF_DATABASE_CONN_MAX_LIFETIME: 240s
+
+      # --- Redis 会话存储配置 ---
+      GF_SESSION_PROVIDER: redis
+      GF_SESSION_PROVIDER_CONFIG: "addr=grafana-redis:6379,password=your_redis_password,db=0,pool_size=100,key_prefix=grafana_session:"
+      # --- Redis 页面缓存配置（可选） ---
+      GF_CACHE_TYPE: redis
+      GF_CACHE_REDIS_ADDR: grafana-redis:6379
+      GF_CACHE_REDIS_PASSWORD: your_redis_password
+      GF_CACHE_REDIS_DB: 1  # 使用不同的 Redis DB 避免冲突
+      GF_CACHE_REDIS_POOL_SIZE: 100
+      GF_CACHE_REDIS_KEY_PREFIX: "grafana_cache:"
+
+      # 其他配置保持不变
+      GF_SECURITY_ADMIN_PASSWORD: "your_admin_password"
+      GF_PATHS_PLUGINS: /var/lib/grafana-plugins
+    volumes:
+      - grafana-plugins:/var/lib/grafana-plugins
+      - grafana-config:/etc/grafana
+    depends_on:
+      grafana-db:
+        condition: service_healthy # 依赖 MySQL 健康检查通过
+
+# 新增 Redis 数据卷
+volumes:
+  grafana-redis-data:
+  grafana-db-data:
+  grafana-plugins:
+  grafana-config:
