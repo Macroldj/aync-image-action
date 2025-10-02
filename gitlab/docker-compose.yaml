@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   gitlab:
-    image: registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ce:18.2.7-ce.0
+    image: registry.cn-hangzhou.aliyuncs.com/macroldj/gitlab-ce:17.11.7-ce.0
     container_name: gitlab
     hostname: gg-gitlab.example.com
     environment:

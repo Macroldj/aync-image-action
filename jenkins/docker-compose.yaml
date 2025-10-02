@@ -1,21 +1,36 @@
 version: '3.8'
-
 services:
+    dind:
+        image: registry.cn-hangzhou.aliyuncs.com/macroldj/docker:dind
+        container_name: jenkins-dind
+        restart: unless-stopped
+        privileged: true
+        networks:
+            - jenkins
+        environment:
+            - DOCKER_TLS_CERTDIR=/certs
+            - DOCKER_TLS_SAN=DNS:dind
+        volumes:
+            - /data/jenkins/home/certs:/certs
+            - /data/jenkins/home:/var/jenkins_home
+        expose:
+            - 2376
     jenkins:
-        image: registry.cn-hangzhou.aliyuncs.com/macroldj/custom-jenkins:2.516.3-3
+        image: custom-jenkins:2.516.3-3
         container_name: jenkins
         restart: on-failure
         networks:
             - jenkins
         environment:
-            - DOCKER_HOST=tcp://docker:2376
+            - DOCKER_HOST=tcp://dind:2376
             - DOCKER_CERT_PATH=/certs/client
             - DOCKER_TLS_VERIFY=1
         ports:
-            - "8080:8080"
+            - "80:8080"
             - "50000:50000"
         volumes:
-            - /data/jenkins:/var/jenkins_home
+            - /data/jenkins/home:/var/jenkins_home
+            - /data/jenkins/home/certs:/certs
 networks:
     jenkins:
         driver: bridge
