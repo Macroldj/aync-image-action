@@ -843,6 +843,10 @@ done
 #docker tag quay.io/prometheus/blackbox-exporter:v0.27.0 registry.cn-hangzhou.aliyuncs.com/macroldj/blackbox-exporter:v0.27.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/blackbox-exporter:v0.27.0
 
-docker pull rancher/rancher:v2.12.2-rc1-amd64
-docker tag rancher/rancher:v2.12.2-rc1-amd64 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.12.2-rc1-amd64
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.12.2-rc1-amd64
+#docker pull rancher/rancher:v2.12.2-rc1-amd64
+#docker tag rancher/rancher:v2.12.2-rc1-amd64 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.12.2-rc1-amd64
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.12.2-rc1-amd64
+
+docker pull dreamacro/clash:dev
+docker tag dreamacro/clash:dev registry.cn-hangzhou.aliyuncs.com/macroldj/clash:dev
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/clash:dev
