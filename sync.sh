@@ -847,6 +847,17 @@ done
 #docker tag rancher/rancher:v2.12.2-rc1-amd64 registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.12.2-rc1-amd64
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:v2.12.2-rc1-amd64
 
-docker pull dreamacro/clash:dev
-docker tag dreamacro/clash:dev registry.cn-hangzhou.aliyuncs.com/macroldj/clash:dev
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/clash:dev
+#docker pull dreamacro/clash:dev
+#docker tag dreamacro/clash:dev registry.cn-hangzhou.aliyuncs.com/macroldj/clash:dev
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/clash:dev
+
+
+# registry.cn-hangzhou.aliyuncs.com/macroldj/ubuntu:22.04-base-tools
+
+docker pull portainer/portainer-ce:2.33.2-alpine
+docker tag portainer/portainer-ce:2.33.2-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/portainer-ce:2.33.2-alpine
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/portainer-ce:2.33.2-alpine
+
+docker pull jonlabelle/network-tools:latest
+docker tag jonlabelle/network-tools:latest registry.cn-hangzhou.aliyuncs.com/macroldj/network-tools:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/network-tools:latest
