@@ -1,0 +1,20 @@
+version: "3"
+services:
+  squid:
+    image: ubuntu/squid:5.2-22.04_edge
+    container_name: squid-proxy
+    restart: always  # 容器退出时自动重启
+    ports:
+      - "3888:3888"  # 映射代理端口（主机端口:容器端口）
+    volumes:
+      # 挂载自定义配置文件（需在当前目录创建 squid.conf）
+      - ./squid.conf:/etc/squid/squid.conf:ro
+      # 挂载缓存目录（持久化缓存数据，避免容器重启后丢失）
+      - squid-cache:/var/spool/squid
+      # 挂载日志目录（方便查看访问日志和缓存日志）
+      # - ./squid-logs:/var/log/squid
+    environment:
+      - TZ=Asia/Shanghai  # 设置时区（可选）
+
+volumes:
+  squid-cache:  # 命名卷，用于持久化缓存数据

@@ -854,10 +854,19 @@ done
 
 # registry.cn-hangzhou.aliyuncs.com/macroldj/ubuntu:22.04-base-tools
 
-docker pull portainer/portainer-ce:2.33.2-alpine
-docker tag portainer/portainer-ce:2.33.2-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/portainer-ce:2.33.2-alpine
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/portainer-ce:2.33.2-alpine
+#docker pull portainer/portainer-ce:2.33.2-alpine
+#docker tag portainer/portainer-ce:2.33.2-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/portainer-ce:2.33.2-alpine
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/portainer-ce:2.33.2-alpine
 
-docker pull jonlabelle/network-tools:latest
-docker tag jonlabelle/network-tools:latest registry.cn-hangzhou.aliyuncs.com/macroldj/network-tools:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/network-tools:latest
+#docker pull jonlabelle/network-tools:latest
+#docker tag jonlabelle/network-tools:latest registry.cn-hangzhou.aliyuncs.com/macroldj/network-tools:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/network-tools:latest
+
+docker pull ollama/ollama
+docker tag ollama/ollama registry.cn-hangzhou.aliyuncs.com/macroldj/ollama:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/ollama:latest
+
+docker pull ghcr.io/open-webui/open-webui:main
+docker tag ghcr.io/open-webui/open-webui:main registry.cn-hangzhou.aliyuncs.com/macroldj/open-webui:main
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/open-webui:main
+
