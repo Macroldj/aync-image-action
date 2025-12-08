@@ -870,7 +870,10 @@ done
 # docker tag ghcr.io/open-webui/open-webui:main registry.cn-hangzhou.aliyuncs.com/macroldj/open-webui:main
 # docker push registry.cn-hangzhou.aliyuncs.com/macroldj/open-webui:main
 
-docker pull gcr.io/cadvisor/cadvisor:v0.47.0
-docker tag gcr.io/cadvisor/cadvisor:v0.47.0 registry.cn-hangzhou.aliyuncs.com/macroldj/cadvisor:v0.47.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cadvisor:v0.47.0
+#docker pull gcr.io/cadvisor/cadvisor:v0.47.0
+#docker tag gcr.io/cadvisor/cadvisor:v0.47.0 registry.cn-hangzhou.aliyuncs.com/macroldj/cadvisor:v0.47.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cadvisor:v0.47.0
 
+docker pull rancher/rancher:latest
+docker tag rancher/rancher:latest registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:latest
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:latest
