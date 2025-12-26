@@ -874,6 +874,14 @@ done
 #docker tag gcr.io/cadvisor/cadvisor:v0.47.0 registry.cn-hangzhou.aliyuncs.com/macroldj/cadvisor:v0.47.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cadvisor:v0.47.0
 
-docker pull rancher/rancher:latest
-docker tag rancher/rancher:latest registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:latest
+#docker pull rancher/rancher:latest
+#docker tag rancher/rancher:latest registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:latest
+
+docker pull docker.io/flannel/flannel-cni-plugin:v1.4.0-flannel1
+docker tag docker.io/flannel/flannel-cni-plugin:v1.4.0-flannel1 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel-cni-plugin:v1.4.0-flannel1
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel-cni-plugin:v1.4.0-flannel1
+
+docker pull docker.io/flannel/flannel:v0.25.0
+docker tag docker.io/flannel/flannel:v0.25.0 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.0
