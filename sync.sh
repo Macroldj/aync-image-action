@@ -888,4 +888,4 @@ done
 
 docker pull docker.elastic.co/elasticsearch/elasticsearch:8.14.0
 docker tag docker.elastic.co/elasticsearch/elasticsearch:8.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.14.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.14.0
