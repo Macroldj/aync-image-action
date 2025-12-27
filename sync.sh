@@ -878,10 +878,14 @@ done
 #docker tag rancher/rancher:latest registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/rancher:latest
 
-docker pull docker.io/flannel/flannel-cni-plugin:v1.4.0-flannel1
-docker tag docker.io/flannel/flannel-cni-plugin:v1.4.0-flannel1 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel-cni-plugin:v1.4.0-flannel1
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel-cni-plugin:v1.4.0-flannel1
+#docker pull docker.io/flannel/flannel-cni-plugin:v1.4.0-flannel1
+#docker tag docker.io/flannel/flannel-cni-plugin:v1.4.0-flannel1 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel-cni-plugin:v1.4.0-flannel1
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel-cni-plugin:v1.4.0-flannel1
 
-docker pull docker.io/flannel/flannel:v0.25.0
-docker tag docker.io/flannel/flannel:v0.25.0 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.0
+#docker pull docker.io/flannel/flannel:v0.25.0
+#docker tag docker.io/flannel/flannel:v0.25.0 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.0
+
+docker pull docker.elastic.co/elasticsearch/elasticsearch:8.14.0
+docker tag docker.elastic.co/elasticsearch/elasticsearch:8.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.14.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8
