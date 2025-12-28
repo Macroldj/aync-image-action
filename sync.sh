@@ -894,6 +894,6 @@ done
 #docker tag docker.elastic.co/kibana/kibana:8.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.14.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.14.0.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.14.0
 
-docker pull docker pull nvidia/cuda:13.1.0-base-ubuntu22.04
+docker pull nvidia/cuda:13.1.0-base-ubuntu22.04
 docker tag nvidia/cuda:13.1.0-base-ubuntu22.04 registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:13.1.0-base-ubuntu22.04
 docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:13.1.0-base-ubuntu22.04
