@@ -886,6 +886,10 @@ done
 #docker tag docker.io/flannel/flannel:v0.25.0 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.25.0
 
-docker pull docker.elastic.co/elasticsearch/elasticsearch:8.14.0
-docker tag docker.elastic.co/elasticsearch/elasticsearch:8.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.14.0
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.14.0
+#docker pull docker.elastic.co/elasticsearch/elasticsearch:8.14.0
+#docker tag docker.elastic.co/elasticsearch/elasticsearch:8.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.14.0
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/elasticsearch:8.14.0
+
+docker pull docker.elastic.co/kibana/kibana:8.14.0
+docker tag docker.elastic.co/kibana/kibana:8.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.14.0
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.14.0.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.14.0
