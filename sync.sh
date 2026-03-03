@@ -894,6 +894,14 @@ done
 #docker tag docker.elastic.co/kibana/kibana:8.14.0 registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.14.0
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.14.0.cn-hangzhou.aliyuncs.com/macroldj/kibana:8.14.0
 
-docker pull nvidia/cuda:13.1.0-base-ubuntu22.04
-docker tag nvidia/cuda:13.1.0-base-ubuntu22.04 registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:13.1.0-base-ubuntu22.04
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:13.1.0-base-ubuntu22.04
+# docker pull nvidia/cuda:13.1.0-base-ubuntu22.04
+# docker tag nvidia/cuda:13.1.0-base-ubuntu22.04 registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:13.1.0-base-ubuntu22.04
+# docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:13.1.0-base-ubuntu22.04
+
+docker pull mysql:8.0.36
+docker tag mysql:8.0.36 registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:8.0.36
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/mysql:8.0.36
+
+docker pull redis:7.2.4-alpine
+docker tag redis:7.2.4-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2.4-alpine
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/redis:7.2.4-alpine
