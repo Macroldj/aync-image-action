@@ -898,6 +898,10 @@ done
 #docker tag nvidia/cuda:13.1.0-base-ubuntu22.04 registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:13.1.0-base-ubuntu22.04
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/cuda:13.1.0-base-ubuntu22.04
 
-docker pull docker.io/atlassian/jira-software:latest
-docker tag docker.io/atlassian/jira-software:latest registry.cn-hangzhou.aliyuncs.com/macroldj/jira-software:latest
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jira-software:latest
+#docker pull docker.io/atlassian/jira-software:latest
+#docker tag docker.io/atlassian/jira-software:latest registry.cn-hangzhou.aliyuncs.com/macroldj/jira-software:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jira-software:latest
+
+docekr pull openkruise/kruise-manager:v1.8.3
+docker tag openkruise/kruise-manager:v1.8.3 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.3
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.3
