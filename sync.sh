@@ -902,6 +902,18 @@ done
 #docker tag docker.io/atlassian/jira-software:latest registry.cn-hangzhou.aliyuncs.com/macroldj/jira-software:latest
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jira-software:latest
 
-docker pull openkruise/kruise-manager:v1.8.3
-docker tag openkruise/kruise-manager:v1.8.3 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.3
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.3
+#docker pull openkruise/kruise-manager:v1.8.3
+#docker tag openkruise/kruise-manager:v1.8.3 registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.3
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/kruise-manager:v1.8.3
+
+#docker pull continuumio/miniconda3:latest
+#docker tag continuumio/miniconda3:latest registry.cn-hangzhou.aliyuncs.com/macroldj/miniconda3:latest
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/miniconda3:latest
+
+docker pull dhi.io/prometheus:3.13
+docker tag dhi.io/prometheus:3.13 registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:3.13
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/prometheus:3.13
+
+docker pull dhi.io/grafana:13-debian-dev
+docker tag dhi.io/grafana:13-debian-dev registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:13-debian-dev
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:13-debian-dev
