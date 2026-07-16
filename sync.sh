@@ -918,10 +918,14 @@ done
 #docker tag dhi.io/grafana:13-debian-dev registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:13-debian-dev
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/grafana:13-debian-dev
 
-docker pull openzipkin/zipkin:3
-docker tag openzipkin/zipkin:3 registry.cn-hangzhou.aliyuncs.com/macroldj/zipkin:3
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zipkin:3
+#docker pull openzipkin/zipkin:3
+#docker tag openzipkin/zipkin:3 registry.cn-hangzhou.aliyuncs.com/macroldj/zipkin:3
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/zipkin:3
 
-docker pull otel/opentelemetry-collector:0.157.0-nightly.b71bd4f
-docker tag otel/opentelemetry-collector:0.157.0-nightly.b71bd4f registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector:0.157.0-nightly.b71bd4f
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector:0.157.0-nightly.b71bd4f
+#docker pull otel/opentelemetry-collector:0.157.0-nightly.b71bd4f
+#docker tag otel/opentelemetry-collector:0.157.0-nightly.b71bd4f registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector:0.157.0-nightly.b71bd4f
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector:0.157.0-nightly.b71bd4f
+
+docker pull ubuntu/jdk:17-24.04_stable
+docker tag ubuntu/jdk:17-24.04_stable registry.cn-hangzhou.aliyuncs.com/macroldj/jdk:17-24.04_stable
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jdk:17-24.04_stable
