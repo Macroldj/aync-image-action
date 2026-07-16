@@ -926,6 +926,10 @@ done
 #docker tag otel/opentelemetry-collector:0.157.0-nightly.b71bd4f registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector:0.157.0-nightly.b71bd4f
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/opentelemetry-collector:0.157.0-nightly.b71bd4f
 
-docker pull ubuntu/jdk:17-24.04_stable
-docker tag ubuntu/jdk:17-24.04_stable registry.cn-hangzhou.aliyuncs.com/macroldj/jdk:17-24.04_stable
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jdk:17-24.04_stable
+#docker pull ubuntu/jdk:17-24.04_stable
+#docker tag ubuntu/jdk:17-24.04_stable registry.cn-hangzhou.aliyuncs.com/macroldj/jdk:17-24.04_stable
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jdk:17-24.04_stable
+
+docker pull eclipse-temurin:17-jre
+docker tag eclipse-temurin:17-jre registry.cn-hangzhou.aliyuncs.com/macroldj/eclipse-temurin:17-jre
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/eclipse-temurin:17-jre
