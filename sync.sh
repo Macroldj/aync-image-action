@@ -930,6 +930,10 @@ done
 #docker tag ubuntu/jdk:17-24.04_stable registry.cn-hangzhou.aliyuncs.com/macroldj/jdk:17-24.04_stable
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/jdk:17-24.04_stable
 
-docker pull eclipse-temurin:17-jre
-docker tag eclipse-temurin:17-jre registry.cn-hangzhou.aliyuncs.com/macroldj/eclipse-temurin:17-jre
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/eclipse-temurin:17-jre
+#docker pull eclipse-temurin:17-jre
+#docker tag eclipse-temurin:17-jre registry.cn-hangzhou.aliyuncs.com/macroldj/eclipse-temurin:17-jre
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/eclipse-temurin:17-jre
+
+docker pull node:24-alpine
+docker tag node:24-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/node:24-alpine
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:24-alpine
