@@ -934,6 +934,16 @@ done
 #docker tag eclipse-temurin:17-jre registry.cn-hangzhou.aliyuncs.com/macroldj/eclipse-temurin:17-jre
 #docker push registry.cn-hangzhou.aliyuncs.com/macroldj/eclipse-temurin:17-jre
 
-docker pull node:24-alpine
-docker tag node:24-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/node:24-alpine
-docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:24-alpine
+#docker pull node:24-alpine
+#docker tag node:24-alpine registry.cn-hangzhou.aliyuncs.com/macroldj/node:24-alpine
+#docker push registry.cn-hangzhou.aliyuncs.com/macroldj/node:24-alpine
+
+
+docker pull ghcr.io/flannel-io/flannel-cni-plugin:v1.9.1-flannel2
+docker tag ghcr.io/flannel-io/flannel-cni-plugin:v1.9.1-flannel2 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel-cni-plugin:v1.9.1-flannel2
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel-cni-plugin:v1.9.1-flannel2
+
+docker pull ghcr.io/flannel-io/flannel:v0.28.7
+docker tag ghcr.io/flannel-io/flannel:v0.28.7 registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.28.7
+docker push registry.cn-hangzhou.aliyuncs.com/macroldj/flannel:v0.28.7
+
